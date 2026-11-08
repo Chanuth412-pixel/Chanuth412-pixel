@@ -24,6 +24,6 @@ I'm interested in building software systems, automating infrastructure, and expl
 
 ###  Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/chanuth-abeynayake-459a95235/
+- LinkedIn: https://www.linkedin.com/in/chanuth-abeynayake-459a95235
 - Email: chanuth412@gmail.com
-- Upwork: (https://www.upwork.com/freelancers/~019b9c84e4a834fb9e)
+- Upwork: https://www.upwork.com/freelancers/~019b9c84e4a834fb9e
