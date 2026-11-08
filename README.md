@@ -6,7 +6,7 @@ I'm interested in building software systems, automating infrastructure, and expl
 
 ---
 
-### 🛠️ Technical Skills
+###  Technical Skills
 
 **Programming:** Python, JavaScript, Java, C
 
@@ -22,7 +22,7 @@ I'm interested in building software systems, automating infrastructure, and expl
 
 ---
 
-### 📫 Connect With Me
+###  Connect With Me
 
 - LinkedIn: https://www.linkedin.com/in/chanuth-abeynayake-459a95235/
 - Email: chanuth412@gmail.com
