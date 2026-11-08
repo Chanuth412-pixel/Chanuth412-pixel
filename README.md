@@ -2,7 +2,8 @@
 
 ### Computer Engineering Undergraduate | University of Peradeniya
 
-I'm interested in building software systems, automating infrastructure, and exploring AI-driven solutions. I enjoy working on practical projects across software engineering, cloud infrastructure, DevOps, and machine learning.
+I'm interested in building software systems, automating infrastructure, and exploring AI-driven solutions.
+I enjoy working on practical projects across software engineering, cloud infrastructure, DevOps, and machine learning.
 
 ---
 
