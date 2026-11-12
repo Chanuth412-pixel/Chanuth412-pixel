@@ -46,16 +46,33 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 | **AI & ML** | LangGraph · Ollama · RAG · Machine Learning |
 | **Embedded Systems** | ESP32 · BLE |
 
-###  GitHub Activity
+
+### 📊 GitHub Activity
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=fade" height="165" alt="GitHub statistics" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=fade" height="165" alt="Languages across public repositories" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=load&duration=2.5&hide_logo=true"
+    height="170"
+    alt="GitHub Statistics"
+  />
 
-<sub>Statistics are generated from public GitHub activity.</sub>
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=draw&duration=2.5"
+    height="170"
+    alt="Programming Languages"
+  />
+
+  <br/>
+
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&theme=default&animation=draw&duration=3"
+    width="95%"
+    alt="GitHub Contribution Activity"
+  />
 
 </div>
+
 
 ---
 
