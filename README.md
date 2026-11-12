@@ -30,11 +30,11 @@
 
 ---
 
-### 👨‍💻 About Me
+###  About Me
 
 I'm a Computer Engineering undergraduate interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, learning new technologies, and applying engineering to real-world problems—including healthcare technology.
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 | Area | Technologies |
 | --- | --- |
@@ -46,7 +46,7 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 | **AI & ML** | LangGraph · Ollama · RAG · Machine Learning |
 | **Embedded Systems** | ESP32 · BLE |
 
-### 📊 GitHub Activity
+###  GitHub Activity
 
 <div align="center">
 
