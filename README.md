@@ -47,7 +47,7 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 | **Embedded Systems** | ESP32 · BLE |
 
 
-### 📊 GitHub Activity
+###  GitHub Activity
 
 <div align="center">
 
