@@ -5,12 +5,14 @@
 
 <br/>
 
+
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=4500&pause=1800&color=79C0FF&center=true&vCenter=true&width=900&height=45&repeat=true&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=4500&pause=1800&color=79C0FF&background=00000000&center=true&vCenter=true&width=900&height=45&repeat=true&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure"
   width="900"
   height="45"
   alt="Software Engineering | AI/ML | Cloud & Infrastructure"
 />
+
 
 <table align="center" border="0" cellpadding="4" cellspacing="0">
 <tr>
