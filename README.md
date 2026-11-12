@@ -1,59 +1,50 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Chanuth%20Abeynayake&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20Undergraduate&descAlignY=59&descSize=17" width="100%" alt="Chanuth Abeynayake" />
+# Hi, I'm Chanuth Abeynayake 👋
 
-### Software Engineering · AI/ML · Cloud & Infrastructure
+**Computer Engineering Undergraduate | University of Peradeniya**
 
-**University of Peradeniya** &nbsp;•&nbsp; **Current GPA: 3.70**
+<a href="https://readme-typing-svg.demolab.com/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1200&color=64748B&center=true&vCenter=true&width=650&height=35&lines=Software+Engineering+%E2%80%A2+AI%2FML+%E2%80%A2+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way" alt="Animated engineering interests" />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chanuth-abeynayake-459a95235)
-[![Upwork](https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~019b9c84e4a834fb9e)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chanuth412@gmail.com)
+**Current GPA: 3.70** · Open to collaboration
+
+[LinkedIn](https://www.linkedin.com/in/chanuth-abeynayake-459a95235/) · [GitHub](https://github.com/Chanuth412-pixel) · [Upwork](https://www.upwork.com/freelancers/~019b9c84e4a834fb9e) · [Email](mailto:chanuth412@gmail.com)
 
 </div>
 
-## 👋 About Me
+---
 
-I'm a **Computer Engineering undergraduate at the University of Peradeniya**, interested in **software engineering, AI/ML, backend systems, and cloud infrastructure**.
+### 👨‍💻 About Me
 
-I enjoy working across different areas of technology, understanding how systems work end to end, and building practical solutions to real-world problems.
+I'm a Computer Engineering undergraduate interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, learning new technologies, and applying engineering to real-world problems—including healthcare technology.
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 | Area | Technologies |
-|:--|:--|
+| --- | --- |
 | **Languages** | Python · JavaScript · TypeScript · Java · C |
-| **Frontend & Backend** | React · Node.js · Express · FastAPI · Astro |
+| **Development** | React · Node.js · Express · FastAPI · Astro · Flutter |
 | **Databases** | PostgreSQL · MongoDB · MySQL · Firebase |
 | **Cloud & DevOps** | AWS · Docker · Kubernetes · Terraform · Ansible · Linux |
-| **Infrastructure & Tools** | Proxmox VE · Podman · Prometheus · Grafana · Keycloak |
+| **Infrastructure** | Proxmox VE · Podman · Prometheus · Grafana · Keycloak |
 | **AI & ML** | LangGraph · Ollama · RAG · Machine Learning |
-| **Embedded & Mobile** | ESP32 · BLE · Flutter |
+| **Embedded Systems** | ESP32 · BLE |
 
-
-<h2>📊 GitHub Stats</h2>
+### 📊 GitHub Activity
 
 <div align="center">
 
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=Chanuth412-pixel&show_icons=true&theme=github_dark&hide_border=true"
-    height="170"
-    alt="GitHub Statistics"
-  />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=fade" height="165" alt="GitHub statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=fade" height="165" alt="Languages across public repositories" />
 
-  <img
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=Chanuth412-pixel&layout=compact&theme=github_dark&hide_border=true"
-    height="170"
-    alt="Most-used Languages"
-  />
+<sub>Statistics are generated from public GitHub activity.</sub>
 
 </div>
-
 
 ---
 
 <div align="center">
-
-*Always learning. Always building.*
-
+  <i>Always learning. Always building.</i>
 </div>
