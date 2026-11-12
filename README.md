@@ -11,22 +11,25 @@
   alt="Software Engineering | AI/ML | Cloud & Infrastructure"
 />
 
-<br/>
+<br/><br/>
 
-
-
-<div align="center">
-
-[![LinkedIn](https://img.icons8.com/color/48/linkedin.png)](https://www.linkedin.com/in/chanuth-abeynayake-459a95235/)
-&nbsp;&nbsp;&nbsp;
-[![GitHub](https://cdn.simpleicons.org/github/181717)](https://github.com/Chanuth412-pixel)
-&nbsp;&nbsp;&nbsp;
-[![Upwork](https://cdn.simpleicons.org/upwork/14A800)](https://www.upwork.com/freelancers/~019b9c84e4a834fb9e)
-&nbsp;&nbsp;&nbsp;
-[![Email](https://cdn.simpleicons.org/gmail/EA4335)](mailto:chanuth412@gmail.com)
-
-</div>
-
+<p align="center">
+  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Chanuth412-pixel">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e">
+    <img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/>
+  </a>
+  &nbsp;
+  <a href="mailto:chanuth412@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 </div>
 
@@ -34,14 +37,15 @@
 
 ---
 
-###  About Me
+### 👨‍💻 About Me
 
-I'm a Computer Engineering undergraduate at the University of Peradeniya, currently maintaining a **GPA of 3.70**. 
+I'm a Computer Engineering undergraduate at the University of Peradeniya, currently maintaining a **GPA of 3.70**.
+
 I'm interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, exploring new technologies, and applying engineering to real-world problems, including healthcare technology.
 
 <br/>
 
-###  Tech Stack
+### 🛠️ Tech Stack
 
 | Area | Technologies |
 | :--- | :--- |
@@ -55,7 +59,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-###  GitHub Activity
+### 📊 GitHub Activity
 
 <div align="center">
 
