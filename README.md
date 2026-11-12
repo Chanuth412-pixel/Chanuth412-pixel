@@ -5,15 +5,12 @@
 
 <br/>
 
-
 <img
   src="https://js-readme-typing-svg.vercel.app/svg?lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure&fontFamily=Fira+Code&fontSize=19&fontWeight=700&color=79C0FF&background=transparent&width=1000&height=50&printSpeed=12&eraseSpeed=12&delayBetweenLines=1800&horizontalAlign=center&verticalAlign=middle&repeat=true&eraseMode=line&cursorStyle=none&paddingX=0&paddingY=0"
   width="100%"
   height="50"
   alt="Software Engineering | AI/ML | Cloud & Infrastructure"
 />
-
-
 
 <table align="center" border="0" cellpadding="4" cellspacing="0">
 <tr>
@@ -35,14 +32,13 @@
 </tr>
 </table>
 
-
 </div>
 
 <br/>
 
 ---
 
-###  About Me
+### 👨‍💻 About Me
 
 I'm a Computer Engineering undergraduate at the University of Peradeniya, currently maintaining a **GPA of 3.70**.
 
@@ -50,21 +46,61 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-###  Tech Stack
+### 🛠️ Tech Stack
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | Python · JavaScript · TypeScript · Java · C |
-| **Development** | React · Node.js · Express · FastAPI · Astro · Flutter |
-| **Databases** | PostgreSQL · MongoDB · MySQL · Firebase |
-| **Cloud & DevOps** | AWS · Docker · Kubernetes · Terraform · Ansible · Linux |
-| **Infrastructure** | Proxmox VE · Podman · Prometheus · Grafana · Keycloak |
-| **AI & ML** | LangGraph · Ollama · RAG · Machine Learning |
-| **Embedded Systems** | ESP32 · BLE |
+**Languages**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,ts,java,c&theme=light&perline=5" alt="Python, JavaScript, TypeScript, Java and C"/>
+</p>
+
+**Development**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,fastapi,astro,flutter&theme=light&perline=6" alt="React, Node.js, Express, FastAPI, Astro and Flutter"/>
+</p>
+
+**Databases**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,firebase&theme=light&perline=4" alt="PostgreSQL, MongoDB, MySQL and Firebase"/>
+</p>
+
+**Cloud & DevOps**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,ansible,linux&theme=light&perline=6" alt="AWS, Docker, Kubernetes, Terraform, Ansible and Linux"/>
+</p>
+
+**Infrastructure & Monitoring**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=light&perline=2" alt="Prometheus and Grafana"/>
+</p>
+
+<p align="center">
+  <sub>Proxmox VE · Podman · Keycloak</sub>
+</p>
+
+**AI & Machine Learning**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ai&theme=light" alt="Artificial Intelligence"/>
+</p>
+
+<p align="center">
+  <sub>LangGraph · Ollama · RAG · Machine Learning</sub>
+</p>
+
+**Embedded Systems**
+
+<p align="center">
+  <sub>ESP32 · Bluetooth Low Energy (BLE)</sub>
+</p>
 
 <br/>
 
-###  GitHub Activity
+### 📊 GitHub Activity
 
 <div align="center">
 
