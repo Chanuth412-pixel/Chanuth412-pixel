@@ -3,11 +3,28 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Engineering%20Undergraduate&descAlignY=58&descSize=17" width="100%" alt="Chanuth Abeynayake" />
 
-**University of Peradeniya** · **Current GPA: 3.70**
+<p>
+  🎓 <b>University of Peradeniya</b>
+  &nbsp; • &nbsp;
+  📚 <b>Current GPA: 3.70</b>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1400&color=64748B&center=true&vCenter=true&width=650&height=32&lines=Software+Engineering+%E2%80%A2+AI%2FML+%E2%80%A2+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way" alt="Engineering interests" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1400&color=64748B&center=true&vCenter=true&width=650&height=32&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way" alt="Engineering interests" />
 
-[LinkedIn](https://www.linkedin.com/in/chanuth-abeynayake-459a95235/) · [GitHub](https://github.com/Chanuth412-pixel) · [Upwork](https://www.upwork.com/freelancers/~019b9c84e4a834fb9e) · [Email](mailto:chanuth412@gmail.com)
+<p>
+  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Chanuth412-pixel">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e">
+    <img src="https://img.shields.io/badge/Upwork-14A800?style=flat-square&logo=upwork&logoColor=white" alt="Upwork"/>
+  </a>
+  <a href="mailto:chanuth412@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 </div>
 
@@ -43,5 +60,5 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 ---
 
 <div align="center">
-  <i>Always learning. Always building.</i>
+  <i>To be is to do.</i>
 </div>
