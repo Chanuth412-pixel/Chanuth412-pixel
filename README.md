@@ -13,7 +13,7 @@
 
 <br/>
 
-<p align="center">
+<p>
 
   <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/" title="LinkedIn">
