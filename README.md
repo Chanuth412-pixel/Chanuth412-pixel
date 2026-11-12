@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Computer%20Engineering%20%7C%20University%20of%20Peradeniya%20%7C%20GPA%3A%203.70&descAlignY=57&descSize=14" width="100%" alt="Chanuth Abeynayake" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Computer%20Engineering%20%7C%20University%20of%20Peradeniya&descAlignY=57&descSize=16" width="100%" alt="Chanuth Abeynayake" />
 
 <br/>
 
@@ -39,7 +39,7 @@
 
 ### 👨‍💻 About Me
 
-I'm a Computer Engineering undergraduate interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, learning new technologies, and applying engineering to real-world problems—including healthcare technology.
+I'm a Computer Engineering undergraduate at the University of Peradeniya, currently maintaining a **GPA of 3.70**. I'm interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, exploring new technologies, and applying engineering to real-world problems, including healthcare technology.
 
 <br/>
 
