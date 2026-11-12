@@ -6,7 +6,7 @@
 <br/>
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=4000&pause=2000&color=64748B&center=true&vCenter=true&width=750&height=38&lines=Software+Engineering+%7C+Artificial+Intelligence+%7C+Cloud+Infrastructure;Exploring+Ideas+%7C+Building+Practical+Solutions"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&duration=3500&pause=1800&color=79C0FF&center=true&vCenter=true&width=650&height=40&repeat=true&lines=Software+Engineering;AI%2FML;Cloud+%26+Infrastructure"
   width="95%"
   alt="Engineering interests"
 />
