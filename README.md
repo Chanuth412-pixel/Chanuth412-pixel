@@ -13,23 +13,30 @@
 
 <br/>
 
-<p>
-  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+
+<p align="center">
+
+  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/" title="LinkedIn">
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="30" height="30" alt="LinkedIn"/>
   </a>
-  &nbsp;
-  <a href="https://github.com/Chanuth412-pixel">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/Chanuth412-pixel" title="GitHub">
+    <img src="https://cdn.simpleicons.org/github/181717" width="30" height="30" alt="GitHub"/>
   </a>
-  &nbsp;
-  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e">
-    <img src="https://img.shields.io/badge/Upwork-14A800?style=flat-square&logo=upwork&logoColor=white" alt="Upwork"/>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e" title="Upwork">
+    <img src="https://cdn.simpleicons.org/upwork/14A800" width="30" height="30" alt="Upwork"/>
   </a>
-  &nbsp;
-  <a href="mailto:chanuth412@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="mailto:chanuth412@gmail.com" title="Email">
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="30" height="30" alt="Email"/>
   </a>
+
 </p>
+
 
 </div>
 
