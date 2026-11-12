@@ -6,9 +6,9 @@
 <br/>
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&duration=3500&pause=1800&color=79C0FF&center=true&vCenter=true&width=650&height=40&repeat=true&lines=Software+Engineering;AI%2FML;Cloud+%26+Infrastructure"
-  width="95%"
-  alt="Engineering interests"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=4500&pause=1800&color=79C0FF&center=true&vCenter=true&width=850&height=45&repeat=true&bold=true&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure"
+  width="100%"
+  alt="Software Engineering | AI/ML | Cloud & Infrastructure"
 />
 
 <br/>
