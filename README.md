@@ -3,24 +3,33 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Engineering%20Undergraduate&descAlignY=58&descSize=17" width="100%" alt="Chanuth Abeynayake" />
 
-<p>
+<p align="center">
   🎓 <b>University of Peradeniya</b>
-  &nbsp; • &nbsp;
+  &nbsp;&nbsp; | &nbsp;&nbsp;
   📚 <b>Current GPA: 3.70</b>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1400&color=64748B&center=true&vCenter=true&width=650&height=32&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way" alt="Engineering interests" />
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1400&color=64748B&center=true&vCenter=true&width=650&height=32&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way"
+    width="90%"
+    alt="Engineering interests"
+  />
+</p>
 
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  &nbsp;
   <a href="https://github.com/Chanuth412-pixel">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  &nbsp;
   <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e">
     <img src="https://img.shields.io/badge/Upwork-14A800?style=flat-square&logo=upwork&logoColor=white" alt="Upwork"/>
   </a>
+  &nbsp;
   <a href="mailto:chanuth412@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
@@ -28,16 +37,20 @@
 
 </div>
 
+<br/>
+
 ---
 
-###  About Me
+### About Me
 
 I'm a Computer Engineering undergraduate interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, learning new technologies, and applying engineering to real-world problems—including healthcare technology.
 
-###  Tech Stack
+<br/>
+
+### Tech Stack
 
 | Area | Technologies |
-| --- | --- |
+| :--- | :--- |
 | **Languages** | Python · JavaScript · TypeScript · Java · C |
 | **Development** | React · Node.js · Express · FastAPI · Astro · Flutter |
 | **Databases** | PostgreSQL · MongoDB · MySQL · Firebase |
@@ -46,36 +59,42 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 | **AI & ML** | LangGraph · Ollama · RAG · Machine Learning |
 | **Embedded Systems** | ESP32 · BLE |
 
+<br/>
 
-###  GitHub Activity
+### GitHub Activity
 
 <div align="center">
 
+<p align="center">
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=load&duration=2.5&hide_logo=true"
     height="170"
     alt="GitHub Statistics"
   />
-
+  &nbsp;
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=draw&duration=2.5"
     height="170"
     alt="Programming Languages"
   />
+</p>
 
-  <br/>
-
+<p align="center">
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&theme=default&animation=draw&duration=3"
-    width="95%"
+    width="92%"
     alt="GitHub Contribution Activity"
   />
+</p>
 
 </div>
 
+<br/>
 
 ---
 
 <div align="center">
-  <i>Stay curious. Keep building.</i>
+
+<i>Staying curious. Keep building.</i>
+
 </div>
