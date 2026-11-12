@@ -62,21 +62,29 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 <br/>
 
 
+
 ### GitHub Activity
 
 <div align="center">
 
+<table>
+<tr>
+<td width="50%" align="center">
 <img
   src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=load&duration=3"
-  height="170"
+  width="100%"
   alt="GitHub Statistics"
 />
-
+</td>
+<td width="50%" align="center">
 <img
   src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=draw&duration=3"
-  height="170"
+  width="100%"
   alt="Programming Languages"
 />
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -89,6 +97,7 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 </div>
 
 <br/>
+
 
 ---
 <p align="center">
