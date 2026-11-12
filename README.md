@@ -13,24 +13,22 @@
 
 <br/><br/>
 
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/">
-  <img src="https://img.icons8.com/color/48/linkedin.png" width="36" height="36" alt="LinkedIn"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Chanuth412-pixel">
-  <img src="https://cdn.simpleicons.org/github/181717" width="36" height="36" alt="GitHub"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e">
-  <img src="https://cdn.simpleicons.org/upwork/14A800" width="36" height="36" alt="Upwork"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-<a href="mailto:chanuth412@gmail.com">
-  <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" alt="Email"/>
-</a>
+<table align="center" border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td align="center">
+  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/"><div align="center"><img src="https://img.icons8.com/color/48/linkedin.png" width="36" height="36" alt="LinkedIn"/></div></a>
+</td>
+<td align="center">
+  <a href="https://github.com/Chanuth412-pixel"><div align="center"><img src="https://cdn.simpleicons.org/github/181717" width="36" height="36" alt="GitHub"/></div></a>
+</td>
+<td align="center">
+  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e"><div align="center"><img src="https://cdn.simpleicons.org/upwork/14A800" width="36" height="36" alt="Upwork"/></div></a>
+</td>
+<td align="center">
+  <a href="mailto:chanuth412@gmail.com"><div align="center"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" alt="Email"/></div></a>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -41,6 +39,7 @@
 ### 👨‍💻 About Me
 
 I'm a Computer Engineering undergraduate at the University of Peradeniya, currently maintaining a **GPA of 3.70**.
+
 I'm interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, exploring new technologies, and applying engineering to real-world problems, including healthcare technology.
 
 <br/>
