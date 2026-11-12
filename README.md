@@ -13,26 +13,33 @@
 
 <br/>
 
-
 <p align="center">
 
+  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/" title="LinkedIn">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="30" height="30" alt="LinkedIn"/>
+    <img src="https://img.icons8.com/color/48/linkedin.png"
+         width="34" height="34" alt="LinkedIn"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 
+  <!-- GitHub -->
   <a href="https://github.com/Chanuth412-pixel" title="GitHub">
-    <img src="https://cdn.simpleicons.org/github/181717" width="30" height="30" alt="GitHub"/>
+    <img src="https://cdn.simpleicons.org/github/181717"
+         width="34" height="34" alt="GitHub"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 
+  <!-- Upwork -->
   <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e" title="Upwork">
-    <img src="https://cdn.simpleicons.org/upwork/14A800" width="30" height="30" alt="Upwork"/>
+    <img src="https://cdn.simpleicons.org/upwork/14A800"
+         width="34" height="34" alt="Upwork"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 
+  <!-- Email -->
   <a href="mailto:chanuth412@gmail.com" title="Email">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="30" height="30" alt="Email"/>
+    <img src="https://cdn.simpleicons.org/gmail/EA4335"
+         width="34" height="34" alt="Email"/>
   </a>
 
 </p>
