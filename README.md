@@ -14,6 +14,7 @@
 />
 
 
+
 <table align="center" border="0" cellpadding="4" cellspacing="0">
 <tr>
 <td align="center">
@@ -26,10 +27,14 @@
   <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e"><div align="center"><img src="https://cdn.simpleicons.org/upwork/14A800" width="36" height="36" alt="Upwork"/></div></a>
 </td>
 <td align="center">
+  <a href="https://dev.to/chanuth_412"><div align="center"><img src="https://cdn.simpleicons.org/devdotto/0A0A0A" width="36" height="36" alt="Dev.to"/></div></a>
+</td>
+<td align="center">
   <a href="mailto:chanuth412@gmail.com"><div align="center"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" alt="Email"/></div></a>
 </td>
 </tr>
 </table>
+
 
 </div>
 
