@@ -30,14 +30,25 @@ I enjoy working across different areas of technology, understanding how systems 
 | **AI & ML** | LangGraph · Ollama · RAG · Machine Learning |
 | **Embedded & Mobile** | ESP32 · BLE · Flutter |
 
-## 📊 GitHub Stats
+
+<h2>📊 GitHub Stats</h2>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Chanuth412-pixel&show_icons=true&hide_border=true&theme=github_dark" height="165" alt="GitHub statistics" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chanuth412-pixel&layout=compact&hide_border=true&theme=github_dark" height="165" alt="Most-used languages" />
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=Chanuth412-pixel&show_icons=true&theme=github_dark&hide_border=true"
+    height="170"
+    alt="GitHub Statistics"
+  />
+
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=Chanuth412-pixel&layout=compact&theme=github_dark&hide_border=true"
+    height="170"
+    alt="Most-used Languages"
+  />
 
 </div>
+
 
 ---
 
