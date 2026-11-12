@@ -60,5 +60,5 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 ---
 
 <div align="center">
-  <i>To be is to do.</i>
+  <i>Stay curious. Keep building.</i>
 </div>
