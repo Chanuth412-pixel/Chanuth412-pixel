@@ -14,32 +14,18 @@
 <br/>
 
 
-<p align="center">
 
-  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/" style="text-decoration:none; display:inline-block;">
-    <img src="https://img.icons8.com/color/48/linkedin.png"
-         width="34" height="34" alt="LinkedIn" style="display:block; border:0;"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
+<div align="center">
 
-  <a href="https://github.com/Chanuth412-pixel" style="text-decoration:none; display:inline-block;">
-    <img src="https://cdn.simpleicons.org/github/181717"
-         width="34" height="34" alt="GitHub" style="display:block; border:0;"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
+[![LinkedIn](https://img.icons8.com/color/48/linkedin.png)](https://www.linkedin.com/in/chanuth-abeynayake-459a95235/)
+&nbsp;&nbsp;&nbsp;
+[![GitHub](https://cdn.simpleicons.org/github/181717)](https://github.com/Chanuth412-pixel)
+&nbsp;&nbsp;&nbsp;
+[![Upwork](https://cdn.simpleicons.org/upwork/14A800)](https://www.upwork.com/freelancers/~019b9c84e4a834fb9e)
+&nbsp;&nbsp;&nbsp;
+[![Email](https://cdn.simpleicons.org/gmail/EA4335)](mailto:chanuth412@gmail.com)
 
-  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e" style="text-decoration:none; display:inline-block;">
-    <img src="https://cdn.simpleicons.org/upwork/14A800"
-         width="34" height="34" alt="Upwork" style="display:block; border:0;"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="mailto:chanuth412@gmail.com" style="text-decoration:none; display:inline-block;">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335"
-         width="34" height="34" alt="Email" style="display:block; border:0;"/>
-  </a>
-
-</p>
+</div>
 
 
 </div>
