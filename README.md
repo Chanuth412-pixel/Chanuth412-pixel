@@ -38,7 +38,7 @@
 
 ---
 
-### 👨‍💻 About Me
+###  About Me
 
 I'm a Computer Engineering undergraduate at the University of Peradeniya, currently maintaining a **GPA of 3.70**.
 
@@ -46,7 +46,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 **Languages**
 
