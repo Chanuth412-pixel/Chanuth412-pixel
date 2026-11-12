@@ -1,0 +1,37 @@
+
+name: Generate Snake Animation
+
+on:
+  # Generate automatically every day
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allow manual execution
+  workflow_dispatch:
+
+# Allow the workflow to publish generated files
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Generate the contribution snake
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Chanuth412-pixel
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # Publish generated SVG files to output branch
+      - name: Push Snake Animation
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
