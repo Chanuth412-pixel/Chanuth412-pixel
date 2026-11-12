@@ -158,7 +158,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <br/>
 
 <div align="center">
-  <i>Staying curious. Keep building.</i>
+  <i>Driven by curiosity. Defined by creation.</i>
 </div>
 
 <br/>
