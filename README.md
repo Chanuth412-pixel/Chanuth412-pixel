@@ -13,33 +13,30 @@
 
 <br/>
 
-<p>
 
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/" title="LinkedIn">
+<p align="center">
+
+  <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/" style="text-decoration:none; display:inline-block;">
     <img src="https://img.icons8.com/color/48/linkedin.png"
-         width="34" height="34" alt="LinkedIn"/>
+         width="34" height="34" alt="LinkedIn" style="display:block; border:0;"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 
-  <!-- GitHub -->
-  <a href="https://github.com/Chanuth412-pixel" title="GitHub">
+  <a href="https://github.com/Chanuth412-pixel" style="text-decoration:none; display:inline-block;">
     <img src="https://cdn.simpleicons.org/github/181717"
-         width="34" height="34" alt="GitHub"/>
+         width="34" height="34" alt="GitHub" style="display:block; border:0;"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 
-  <!-- Upwork -->
-  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e" title="Upwork">
+  <a href="https://www.upwork.com/freelancers/~019b9c84e4a834fb9e" style="text-decoration:none; display:inline-block;">
     <img src="https://cdn.simpleicons.org/upwork/14A800"
-         width="34" height="34" alt="Upwork"/>
+         width="34" height="34" alt="Upwork" style="display:block; border:0;"/>
   </a>
   &nbsp;&nbsp;&nbsp;
 
-  <!-- Email -->
-  <a href="mailto:chanuth412@gmail.com" title="Email">
+  <a href="mailto:chanuth412@gmail.com" style="text-decoration:none; display:inline-block;">
     <img src="https://cdn.simpleicons.org/gmail/EA4335"
-         width="34" height="34" alt="Email"/>
+         width="34" height="34" alt="Email" style="display:block; border:0;"/>
   </a>
 
 </p>
