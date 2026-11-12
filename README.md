@@ -100,7 +100,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-### 📊 GitHub Activity
+###  GitHub Activity
 
 <div align="center">
 
