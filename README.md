@@ -1,23 +1,19 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Computer%20Engineering%20Undergraduate&descAlignY=58&descSize=17" width="100%" alt="Chanuth Abeynayake" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Computer%20Engineering%20%7C%20University%20of%20Peradeniya%20%7C%20GPA%3A%203.70&descAlignY=57&descSize=14" width="100%" alt="Chanuth Abeynayake" />
 
-<p align="center">
-  🎓 <b>University of Peradeniya</b>
-  &nbsp;&nbsp; | &nbsp;&nbsp;
-  📚 <b>Current GPA: 3.70</b>
-</p>
+<br/>
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1400&color=64748B&center=true&vCenter=true&width=650&height=32&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way"
-    width="90%"
-    alt="Engineering interests"
-  />
-</p>
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1400&color=64748B&center=true&vCenter=true&width=650&height=32&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure;Building+practical+systems+and+learning+along+the+way"
+  width="90%"
+  alt="Engineering interests"
+/>
 
-<p align="center">
+<br/>
+
+<p>
   <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -41,13 +37,13 @@
 
 ---
 
-### About Me
+### 👨‍💻 About Me
 
 I'm a Computer Engineering undergraduate interested in **software engineering, AI/ML, cloud infrastructure, and automation**. I enjoy building practical systems, learning new technologies, and applying engineering to real-world problems—including healthcare technology.
 
 <br/>
 
-### Tech Stack
+### 🛠️ Tech Stack
 
 | Area | Technologies |
 | :--- | :--- |
@@ -61,9 +57,7 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 
 <br/>
 
-
-
-### GitHub Activity
+### 📊 GitHub Activity
 
 <div align="center">
 
@@ -98,8 +92,8 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 
 <br/>
 
-
 ---
+
 <p align="center">
   <picture>
     <source
@@ -118,8 +112,8 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
   </picture>
 </p>
 
+<br/>
+
 <div align="center">
-
-<i>Staying curious. Keep building.</i>
-
+  <i>Stay curious. Keep building.</i>
 </div>
