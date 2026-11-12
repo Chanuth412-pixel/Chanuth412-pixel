@@ -3,17 +3,21 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=Computer%20Engineering%20%7C%20University%20of%20Peradeniya&descAlignY=57&descSize=16" width="100%" alt="Chanuth Abeynayake" />
 
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=Computer%20Engineering%20%7C%20University%20of%20Peradeniya&descAlignY=57&descSize=16" width="100%" alt="Chanuth Abeynayake" />
+
 <br/>
 
 <img
   src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=4500&pause=1800&color=79C0FF&center=true&vCenter=true&width=900&height=45&repeat=true&lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure"
-  width="100%"
+  width="900"
+  height="45"
   alt="Software Engineering | AI/ML | Cloud & Infrastructure"
 />
 
-<br/><br/>
-
-<table align="center" border="0" cellpadding="10" cellspacing="0">
+<table align="center" border="0" cellpadding="4" cellspacing="0">
 <tr>
 <td align="center">
   <a href="https://www.linkedin.com/in/chanuth-abeynayake-459a95235/"><div align="center"><img src="https://img.icons8.com/color/48/linkedin.png" width="36" height="36" alt="LinkedIn"/></div></a>
@@ -32,7 +36,6 @@
 
 </div>
 
-<br/>
 
 ---
 
