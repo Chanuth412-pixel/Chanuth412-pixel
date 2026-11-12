@@ -124,3 +124,18 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <div align="center">
   <i>Stay curious. Keep building.</i>
 </div>
+
+
+<br/>
+
+<div align="center">
+  <i>Stay curious. Keep building.</i>
+</div>
+
+<br/>
+
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=120&section=footer&animation=twinkling"
+  width="100%"
+  alt="Animated blue footer wave"
+/>
