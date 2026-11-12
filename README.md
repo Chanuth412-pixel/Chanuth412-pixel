@@ -1,19 +1,16 @@
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Chanuth%20Abeynayake&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=Computer%20Engineering%20%7C%20University%20of%20Peradeniya&descAlignY=57&descSize=16" width="100%" alt="Chanuth Abeynayake" />
 
 <br/>
 
-
-
 <img
-  src="https://js-readme-typing-svg.vercel.app/svg?lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure&fontFamily=Fira+Code&fontSize=19&fontWeight=700&color=79C0FF&background=transparent&width=900&height=50&printSpeed=12&eraseSpeed=12&delayBetweenLines=1800&horizontalAlign=center&verticalAlign=middle&repeat=true&eraseMode=line&cursorStyle=none&paddingX=0&paddingY=0"
-  width="900"
+  src="https://js-readme-typing-svg.vercel.app/svg?lines=Software+Engineering+%7C+AI%2FML+%7C+Cloud+%26+Infrastructure&fontFamily=Fira+Code&fontSize=19&fontWeight=700&color=79C0FF&background=transparent&width=1000&height=50&printSpeed=6&eraseSpeed=8&delayBetweenLines=1800&horizontalAlign=center&verticalAlign=middle&repeat=true&eraseMode=line&cursorStyle=none&paddingX=0&paddingY=0"
+  width="100%"
   height="50"
   alt="Software Engineering | AI/ML | Cloud & Infrastructure"
 />
-
-
 
 <table align="center" border="0" cellpadding="4" cellspacing="0">
 <tr>
