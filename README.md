@@ -122,7 +122,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <br/>
 
 <div align="center">
-  <i>Stay curious. Keep building.</i>
+  <i>Staying curious. Keep building.</i>
 </div>
 
 <br/>
