@@ -91,6 +91,23 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 <br/>
 
 ---
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Chanuth412-pixel/Chanuth412-pixel/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Chanuth412-pixel/Chanuth412-pixel/output/github-snake.svg"
+    />
+    <img
+      alt="GitHub contribution snake"
+      src="https://raw.githubusercontent.com/Chanuth412-pixel/Chanuth412-pixel/output/github-snake.svg"
+      width="95%"
+    />
+  </picture>
+</p>
 
 <div align="center">
 
