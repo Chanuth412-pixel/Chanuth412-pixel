@@ -81,7 +81,7 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 
 <p align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&theme=default&animation=draw&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412&theme=default&animation=draw&duration=3"
     width="92%"
     alt="GitHub Contribution Activity"
   />
