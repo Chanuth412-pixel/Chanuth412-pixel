@@ -61,31 +61,30 @@ I'm a Computer Engineering undergraduate interested in **software engineering, A
 
 <br/>
 
+
 ### GitHub Activity
 
 <div align="center">
 
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=load&duration=2.5&hide_logo=true"
-    height="170"
-    alt="GitHub Statistics"
-  />
-  &nbsp;
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=draw&duration=2.5"
-    height="170"
-    alt="Programming Languages"
-  />
-</p>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chanuth412-pixel&theme=default&animation=load&duration=3"
+  height="170"
+  alt="GitHub Statistics"
+/>
 
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&theme=default&animation=draw&duration=3"
-    width="92%"
-    alt="GitHub Contribution Activity"
-  />
-</p>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chanuth412-pixel&theme=default&animation=draw&duration=3"
+  height="170"
+  alt="Programming Languages"
+/>
+
+<br/>
+
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&name=Chanuth%20Abeynayake&theme=default&animation=rgb-soft&duration=10"
+  width="95%"
+  alt="GitHub Contribution Activity"
+/>
 
 </div>
 
