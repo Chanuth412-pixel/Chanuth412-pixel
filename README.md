@@ -110,74 +110,11 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
-<table align="center" width="100%" cellpadding="12" cellspacing="0">
+- **[Update macOS runners in CI documentation](https://github.com/pypa/build/pull/1282)** — [pypa/build](https://github.com/pypa/build)  
+  <sub>⭐ 864 stars · 🍴 203 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
 
-<tr>
-<td align="left">
-
-<strong>
-<a href="https://github.com/pypa/build/pull/1282">Update macOS runners in CI documentation</a>
-</strong>
-
-<br/>
-
-<a href="https://github.com/pypa/build"><strong>pypa/build</strong></a>
-
-<br/>
-
-⭐ 864 stars
-&nbsp; · &nbsp;
-🍴 203 forks
-&nbsp; · &nbsp;
-<code>Python</code>
-
-<br/><br/>
-
-<sub>
-Documentation
-&nbsp; · &nbsp;
-PR #1282
-&nbsp; · &nbsp;
-Merged 13 Nov 2026
-</sub>
-
-</td>
-</tr>
-
-
-<tr>
-<td align="left">
-
-<strong>
-<a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
-</strong>
-
-<br/>
-
-<a href="https://github.com/pypa/build"><strong>pypa/build</strong></a>
-
-<br/>
-
-⭐ 864 stars
-&nbsp; · &nbsp;
-🍴 203 forks
-&nbsp; · &nbsp;
-<code>Python</code>
-
-<br/><br/>
-
-<sub>
-Documentation
-&nbsp; · &nbsp;
-PR #1281
-&nbsp; · &nbsp;
-Merged 13 Nov 2026
-</sub>
-
-</td>
-</tr>
-
-</table>
+- **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — [pypa/build](https://github.com/pypa/build)  
+  <sub>⭐ 864 stars · 🍴 203 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
