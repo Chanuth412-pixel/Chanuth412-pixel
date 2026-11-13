@@ -46,7 +46,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 **Languages**
 
