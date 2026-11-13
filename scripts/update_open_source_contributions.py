@@ -1,4 +1,53 @@
 
+from pathlib import Path
+
+
+def update_readme(contributions):
+
+    readme_path = Path("README.md")
+
+    start_marker = "<!-- OPEN_SOURCE_CONTRIBUTIONS:START -->"
+    end_marker = "<!-- OPEN_SOURCE_CONTRIBUTIONS:END -->"
+
+    readme = readme_path.read_text(encoding="utf-8")
+
+    if start_marker not in readme or end_marker not in readme:
+        raise ValueError(
+            "Open source contribution markers not found in README.md"
+        )
+
+    start = readme.index(start_marker) + len(start_marker)
+    end = readme.index(end_marker, start)
+
+    if start > end:
+        raise ValueError("Invalid contribution marker order.")
+
+    generated_html = generate_markdown(contributions)
+
+    updated_readme = (
+        readme[:start]
+        + "\n\n"
+        + generated_html
+        + "\n\n"
+        + readme[end:]
+    )
+
+    if updated_readme == readme:
+        print("README is already up to date.")
+        return
+
+    readme_path.write_text(
+        updated_readme,
+        encoding="utf-8"
+    )
+
+    print(
+        f"README successfully updated with "
+        f"{len(contributions)} contributions."
+    )
+
+
+
 def generate_markdown(contributions):
 
     if not contributions:
