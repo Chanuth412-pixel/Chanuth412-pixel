@@ -108,6 +108,25 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
+<!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
+
+- **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — In the getting started tutorial it used _mkdir src/mypackage_ to create the package directory. But the parent src directory is not made at that time, so the command failed So I replaced it with _mkdir -p...
+  <sub>[pypa/build](https://github.com/pypa/build) · ⭐ 864 stars · 🍴 202 forks · Python · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
+
+- **[Setting up monitoring stack, automatic authentication to grafana](https://github.com/IsharaEkanayaka/kubesmith/pull/6)** — Provisioner - provisioner.py - Added simple debug logging/print output to make provisioning and error tracking easier during testing.(If not needed just drop them) - Fixed cluster name handling so the correct cluster...
+  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #6 · Merged 15 Mar 2026</sub>
+
+- **[added some new variables in terraform to be updated in the proxmox](https://github.com/IsharaEkanayaka/kubesmith/pull/3)** — Users can now choose: - the number of CPUs and amount of RAM for each node - the number of control plane and worker nodes - IP addresses and DNS servers - the target physical host for VM placement (for example, pve1...
+  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #3 · Merged 05 Mar 2026</sub>
+
+- **[Adding the Interactive Web Dashboard for On-Demand VM Provisioning](https://github.com/IsharaEkanayaka/kubesmith/pull/2)** — The infrastructure is no longer automatically updated on every commit. Now, a developer can now interactively define the cluster variables(e.g., the number of worker nodes) using a web application, which then uses...
+  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #2 · Merged 04 Mar 2026</sub>
+
+<!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
+
+<br/>
+
+
 ###  GitHub Activity
 
 <div align="center">
@@ -133,23 +152,6 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-<!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
-
-- **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — In the getting started tutorial it used _mkdir src/mypackage_ to create the package directory. But the parent src directory is not made at that time, so the command failed So I replaced it with _mkdir -p...
-  <sub>[pypa/build](https://github.com/pypa/build) · ⭐ 864 stars · 🍴 202 forks · Python · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
-
-- **[Setting up monitoring stack, automatic authentication to grafana](https://github.com/IsharaEkanayaka/kubesmith/pull/6)** — Provisioner - provisioner.py - Added simple debug logging/print output to make provisioning and error tracking easier during testing.(If not needed just drop them) - Fixed cluster name handling so the correct cluster...
-  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #6 · Merged 15 Mar 2026</sub>
-
-- **[added some new variables in terraform to be updated in the proxmox](https://github.com/IsharaEkanayaka/kubesmith/pull/3)** — Users can now choose: - the number of CPUs and amount of RAM for each node - the number of control plane and worker nodes - IP addresses and DNS servers - the target physical host for VM placement (for example, pve1...
-  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #3 · Merged 05 Mar 2026</sub>
-
-- **[Adding the Interactive Web Dashboard for On-Demand VM Provisioning](https://github.com/IsharaEkanayaka/kubesmith/pull/2)** — The infrastructure is no longer automatically updated on every commit. Now, a developer can now interactively define the cluster variables(e.g., the number of worker nodes) using a web application, which then uses...
-  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #2 · Merged 04 Mar 2026</sub>
-
-<!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
-
-<br/>
 
 <img
   src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&name=Chanuth%20Abeynayake&theme=default&animation=rgb-soft&duration=10"
