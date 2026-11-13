@@ -53,7 +53,31 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 </p>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
-<!-- Automatically updated by GitHub Actions -->
+
+- **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — Fixed the Getting Started tutorial by replacing `mkdir src/mypackage` with `mkdir -p src/mypackage`, ensuring the missing parent directory is created automatically.
+  <sub>[pypa/build](https://github.com/pypa/build) · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
+
+- **[docs: fix broken FAQ links](https://github.com/Chanuth412-pixel/home-assistant.io/pull/1)** — Description This PR fixes four broken internal FAQ links across three Home Assistant documentation pages. The following updates have been made: is-it-reliable.markdown – Updated the link to the FAQ about Home Assistant updates....
+  <sub>[Chanuth412-pixel/home-assistant.io](https://github.com/Chanuth412-pixel/home-assistant.io) · Open source · PR #1 · Merged 12 Nov 2026</sub>
+
+- **[rec redirect off](https://github.com/Chanuth412-pixel/AccessLens/pull/3)** — auto redirecting in recording off
+  <sub>[Chanuth412-pixel/AccessLens](https://github.com/Chanuth412-pixel/AccessLens) · Open source · PR #3 · Merged 05 Aug 2026</sub>
+
+- **[Chan](https://github.com/Chanuth412-pixel/AccessLens/pull/2)** — Recodring each step and showing- still cache db needed
+  <sub>[Chanuth412-pixel/AccessLens](https://github.com/Chanuth412-pixel/AccessLens) · Open source · PR #2 · Merged 04 Aug 2026</sub>
+
+- **[Temp branch](https://github.com/Chanuth412-pixel/tf-agent/pull/6)** — Merged contribution to this project.
+  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #6 · Merged 20 Jul 2026</sub>
+
+- **[Temp branch](https://github.com/Chanuth412-pixel/tf-agent/pull/5)** — Merged contribution to this project.
+  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #5 · Merged 12 Jul 2026</sub>
+
+- **[Temp branch](https://github.com/Chanuth412-pixel/tf-agent/pull/4)** — system works and gives dependency graphs for 2 use case as for now. Simple issues in the depenedency graph needs fixing though
+  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #4 · Merged 12 Jul 2026</sub>
+
+- **[Dev](https://github.com/Chanuth412-pixel/tf-agent/pull/3)** — working accurately for the graph dependency for the clonning and the import but for clonning tf plan has issues
+  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #3 · Merged 07 Jul 2026</sub>
+
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
 <br/>
