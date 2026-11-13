@@ -376,6 +376,7 @@ def format_date(value):
 # GENERATE CONTRIBUTION HTML
 # ============================================================
 
+
 def generate_markdown(contributions):
 
     if not contributions:
@@ -403,51 +404,26 @@ def generate_markdown(contributions):
         language = html.escape(str(item["language"]))
         category = html.escape(str(item["category"]))
 
+        number = html.escape(str(item["number"]))
+
         stars = format_count(item["stars"])
         forks = format_count(item["forks"])
 
         date = format_date(item["merged_at"])
 
-        rows.append(f"""
-<tr>
-<td align="left">
+        rows.append(
+            f'- **[{title}]({pr_url})** — '
+            f'[{repo}]({repo_url})  \n'
+            f'  <sub>⭐ {stars} stars '
+            f'· 🍴 {forks} forks '
+            f'· `{language}` '
+            f'· {category} '
+            f'· PR #{number} '
+            f'· Merged {date}</sub>'
+        )
 
-<strong>
-<a href="{pr_url}">{title}</a>
-</strong>
+    return "\n\n".join(rows)
 
-<br/>
-
-<a href="{repo_url}"><strong>{repo}</strong></a>
-
-<br/>
-
-⭐ {stars} stars
-&nbsp; · &nbsp;
-🍴 {forks} forks
-&nbsp; · &nbsp;
-<code>{language}</code>
-
-<br/><br/>
-
-<sub>
-{category}
-&nbsp; · &nbsp;
-PR #{item["number"]}
-&nbsp; · &nbsp;
-Merged {date}
-</sub>
-
-</td>
-</tr>
-""")
-
-    return (
-        '<table align="center" width="100%" '
-        'cellpadding="12" cellspacing="0">\n'
-        + "\n".join(rows)
-        + "\n</table>"
-    )
 
 
 # ============================================================
