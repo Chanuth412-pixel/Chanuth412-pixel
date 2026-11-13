@@ -46,6 +46,18 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
+###  Open Source Contributions
+
+<p align="center">
+  <sub>Contributing to open-source projects through documentation, bug fixes and engineering improvements.</sub>
+</p>
+
+<!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
+<!-- Automatically updated by GitHub Actions -->
+<!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
+
+<br/>
+
 ###  Tech Stack
 
 **Languages**
