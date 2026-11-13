@@ -108,46 +108,18 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
+
+### 🌍 Open Source Contributions
+
+<p align="center">
+  <sub>Contributing to established open-source projects through documentation, bug fixes and engineering improvements.</sub>
+</p>
+
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
-
-<table align="center" width="100%">
-
-<tr>
-<td>
-
-<strong>
-<a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
-</strong>
-
-<br/>
-
-<a href="https://github.com/pypa/build"><strong>pypa/build</strong></a>
-
-&nbsp; ⭐ 864 stars
-&nbsp; · &nbsp; 🍴 203 forks
-&nbsp; · &nbsp; <code>Python</code>
-
-<br/><br/>
-
-In the getting started tutorial it used _mkdir src/mypackage_ to create the package directory.
-
-<br/><br/>
-
-<sub>
-Documentation
-&nbsp; · &nbsp; PR #1281
-&nbsp; · &nbsp; Merged 13 Nov 2026
-</sub>
-
-</td>
-</tr>
-
-</table>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
 <br/>
-
 
 ###  GitHub Activity
 
