@@ -110,6 +110,42 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
+<table align="center" width="100%" cellpadding="12" cellspacing="0">
+
+<tr>
+<td align="left">
+
+<strong>
+<a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
+</strong>
+
+<br/>
+
+<a href="https://github.com/pypa/build"><strong>pypa/build</strong></a>
+
+<br/>
+
+⭐ 864 stars
+&nbsp; · &nbsp;
+🍴 203 forks
+&nbsp; · &nbsp;
+<code>Python</code>
+
+<br/><br/>
+
+<sub>
+Documentation
+&nbsp; · &nbsp;
+PR #1281
+&nbsp; · &nbsp;
+Merged 13 Nov 2026
+</sub>
+
+</td>
+</tr>
+
+</table>
+
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
 <br/>
