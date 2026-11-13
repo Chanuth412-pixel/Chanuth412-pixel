@@ -46,15 +46,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-###  Open Source Contributions
-
-<p align="center">
-  <sub>Contributing to open-source projects through documentation, bug fixes and engineering improvements.</sub>
-</p>
-
-
-
-###  Tech Stack
+### 🛠️ Tech Stack
 
 **Languages**
 
@@ -108,8 +100,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
+---
 
-### 🌍 Open Source Contributions
+###  Open Source Contributions
 
 <p align="center">
   <sub>Contributing to established open-source projects through documentation, bug fixes and engineering improvements.</sub>
@@ -121,7 +114,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <br/>
 
-###  GitHub Activity
+---
+
+### 📊 GitHub Activity
 
 <div align="center">
 
@@ -145,7 +140,6 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 </table>
 
 <br/>
-
 
 <img
   src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chanuth412-pixel&name=Chanuth%20Abeynayake&theme=default&animation=rgb-soft&duration=10"
