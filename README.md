@@ -54,29 +54,17 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
-- **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — Fixed the Getting Started tutorial by replacing `mkdir src/mypackage` with `mkdir -p src/mypackage`, ensuring the missing parent directory is created automatically.
-  <sub>[pypa/build](https://github.com/pypa/build) · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
+- **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — In the getting started tutorial it used _mkdir src/mypackage_ to create the package directory. But the parent src directory is not made at that time, so the command failed So I replaced it with _mkdir -p...
+  <sub>[pypa/build](https://github.com/pypa/build) · ⭐ 864 stars · 🍴 202 forks · Python · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
 
-- **[docs: fix broken FAQ links](https://github.com/Chanuth412-pixel/home-assistant.io/pull/1)** — Description This PR fixes four broken internal FAQ links across three Home Assistant documentation pages. The following updates have been made: is-it-reliable.markdown – Updated the link to the FAQ about Home Assistant updates....
-  <sub>[Chanuth412-pixel/home-assistant.io](https://github.com/Chanuth412-pixel/home-assistant.io) · Open source · PR #1 · Merged 12 Nov 2026</sub>
+- **[Setting up monitoring stack, automatic authentication to grafana](https://github.com/IsharaEkanayaka/kubesmith/pull/6)** — Provisioner - provisioner.py - Added simple debug logging/print output to make provisioning and error tracking easier during testing.(If not needed just drop them) - Fixed cluster name handling so the correct cluster...
+  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #6 · Merged 15 Mar 2026</sub>
 
-- **[rec redirect off](https://github.com/Chanuth412-pixel/AccessLens/pull/3)** — auto redirecting in recording off
-  <sub>[Chanuth412-pixel/AccessLens](https://github.com/Chanuth412-pixel/AccessLens) · Open source · PR #3 · Merged 05 Aug 2026</sub>
+- **[added some new variables in terraform to be updated in the proxmox](https://github.com/IsharaEkanayaka/kubesmith/pull/3)** — Users can now choose: - the number of CPUs and amount of RAM for each node - the number of control plane and worker nodes - IP addresses and DNS servers - the target physical host for VM placement (for example, pve1...
+  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #3 · Merged 05 Mar 2026</sub>
 
-- **[Chan](https://github.com/Chanuth412-pixel/AccessLens/pull/2)** — Recodring each step and showing- still cache db needed
-  <sub>[Chanuth412-pixel/AccessLens](https://github.com/Chanuth412-pixel/AccessLens) · Open source · PR #2 · Merged 04 Aug 2026</sub>
-
-- **[Temp branch](https://github.com/Chanuth412-pixel/tf-agent/pull/6)** — Merged contribution to this project.
-  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #6 · Merged 20 Jul 2026</sub>
-
-- **[Temp branch](https://github.com/Chanuth412-pixel/tf-agent/pull/5)** — Merged contribution to this project.
-  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #5 · Merged 12 Jul 2026</sub>
-
-- **[Temp branch](https://github.com/Chanuth412-pixel/tf-agent/pull/4)** — system works and gives dependency graphs for 2 use case as for now. Simple issues in the depenedency graph needs fixing though
-  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #4 · Merged 12 Jul 2026</sub>
-
-- **[Dev](https://github.com/Chanuth412-pixel/tf-agent/pull/3)** — working accurately for the graph dependency for the clonning and the import but for clonning tf plan has issues
-  <sub>[Chanuth412-pixel/tf-agent](https://github.com/Chanuth412-pixel/tf-agent) · Open source · PR #3 · Merged 07 Jul 2026</sub>
+- **[Adding the Interactive Web Dashboard for On-Demand VM Provisioning](https://github.com/IsharaEkanayaka/kubesmith/pull/2)** — The infrastructure is no longer automatically updated on every commit. Now, a developer can now interactively define the cluster variables(e.g., the number of worker nodes) using a web application, which then uses...
+  <sub>[IsharaEkanayaka/kubesmith](https://github.com/IsharaEkanayaka/kubesmith) · ⭐ 2 stars · 🍴 2 forks · Python · Open Source · PR #2 · Merged 04 Mar 2026</sub>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
