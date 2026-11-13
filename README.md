@@ -105,7 +105,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 ###  Open Source Contributions
 
 <p align="center">
-  <sub>Contributing to established open-source projects through documentation, bug fixes and engineering improvements.</sub>
+ 
 </p>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
