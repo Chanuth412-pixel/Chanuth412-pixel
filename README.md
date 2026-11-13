@@ -152,7 +152,7 @@ Merged 13 Nov 2026
 
 ---
 
-### 📊 GitHub Activity
+###  GitHub Activity
 
 <div align="center">
 
