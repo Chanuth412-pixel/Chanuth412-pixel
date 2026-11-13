@@ -33,7 +33,7 @@ def generate_markdown(contributions):
 
         rows.append(f"""
 <tr>
-<td>
+<td align="left">
 
 <strong>
 <a href="{pr_url}">{title}</a>
@@ -41,11 +41,9 @@ def generate_markdown(contributions):
 
 <br/>
 
-<a href="{repo_url}">
-<strong>{repo}</strong>
-</a>
+<a href="{repo_url}"><strong>{repo}</strong></a>
 
-<br/><br/>
+<br/>
 
 ⭐ {stars} stars
 &nbsp; · &nbsp;
@@ -68,7 +66,7 @@ Merged {date}
 """)
 
     return (
-        '<table align="center" width="100%">\n'
+        '<table align="center" width="100%" cellpadding="12" cellspacing="0">\n'
         + "\n".join(rows)
         + "\n</table>"
     )
