@@ -88,6 +88,7 @@ def generate_markdown(contributions):
 <a href="{pr_url}">{title}</a>
 </strong>
 
+
 <br/>
 
 <a href="{repo_url}"><strong>{repo}</strong></a>
@@ -119,3 +120,4 @@ Merged {date}
         + "\n".join(rows)
         + "\n</table>"
     )
+update_readme(contributions)
