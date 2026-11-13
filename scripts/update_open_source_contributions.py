@@ -1,21 +1,33 @@
 
+import html
 import json
 import os
 import re
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from urllib.parse import urlencode
+
+# --------------------------------------------------
+# Configuration
+# --------------------------------------------------
 
 USERNAME = os.getenv("GITHUB_USERNAME", "Chanuth412-pixel")
 TOKEN = os.environ["GITHUB_TOKEN"]
 
 README = Path("README.md")
+
+MIN_STARS = 500
 MAX_CONTRIBUTIONS = 8
+MAX_SEARCH_PAGES = 10
 
 START_MARKER = "<!-- OPEN_SOURCE_CONTRIBUTIONS:START -->"
 END_MARKER = "<!-- OPEN_SOURCE_CONTRIBUTIONS:END -->"
 
+
+# --------------------------------------------------
+# GitHub API
+# --------------------------------------------------
 
 def github_get(url):
     request = Request(
@@ -32,9 +44,14 @@ def github_get(url):
         return json.load(response)
 
 
+# --------------------------------------------------
+# Formatting helpers
+# --------------------------------------------------
+
 def format_count(number):
     if number >= 1000:
         return f"{number / 1000:.1f}k".replace(".0k", "k")
+
     return str(number)
 
 
@@ -47,49 +64,133 @@ def format_date(value):
     ).strftime("%d %b %Y")
 
 
-def clean_summary(body):
-    if not body:
-        return "Merged contribution to this project."
+def clean_summary(body, title):
+    """
+    Extract only a short summary from the PR description.
+    Never display the complete PR body.
+    """
 
+    if not body:
+        return title
+
+    body = html.unescape(body)
+
+    # Remove comments, code blocks and images.
     body = re.sub(r"<!--.*?-->", " ", body, flags=re.S)
+    body = re.sub(r"```.*?```", " ", body, flags=re.S)
+    body = re.sub(r"!\[.*?\]\(.*?\)", " ", body)
+
+    # Keep link text, remove Markdown formatting.
     body = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", body)
     body = re.sub(r"`([^`]+)`", r"\1", body)
     body = re.sub(r"<[^>]+>", " ", body)
-    body = re.sub(r"(?m)^#+\s*", "", body)
-    body = re.sub(r"\s+", " ", body).strip()
 
-    if len(body) > 220:
-        body = body[:217].rsplit(" ", 1)[0] + "..."
+    lines = body.splitlines()
+    meaningful_lines = []
 
-    return body or "Merged contribution to this project."
+    ignored_headings = {
+        "description",
+        "summary",
+        "overview",
+        "test plan",
+        "testing",
+        "checklist",
+        "changes",
+        "what does this pr do?",
+        "why is this change needed?",
+    }
+
+    for line in lines:
+        line = line.strip()
+
+        if not line:
+            if meaningful_lines:
+                break
+            continue
+
+        line = re.sub(r"^#{1,6}\s*", "", line)
+        line = re.sub(r"^[-*+]\s*", "", line)
+        line = re.sub(r"^>\s*", "", line)
+        line = re.sub(r"^\[[ xX]\]\s*", "", line)
+
+        if line.lower().rstrip(":") in ignored_headings:
+            continue
+
+        if re.match(
+            r"^(closes|fixes|resolves)\s+#\d+",
+            line,
+            re.IGNORECASE,
+        ):
+            continue
+
+        meaningful_lines.append(line)
+
+    if not meaningful_lines:
+        return title
+
+    # Use the first meaningful paragraph only.
+    paragraph = " ".join(meaningful_lines)
+    paragraph = re.sub(r"\s+", " ", paragraph).strip()
+
+    # Extract the first sentence.
+    sentences = re.split(r"(?<=[.!?])\s+", paragraph)
+
+    summary = sentences[0]
+
+    # Include a second sentence only when the first is too short.
+    if len(summary) < 55 and len(sentences) > 1:
+        candidate = summary + " " + sentences[1]
+
+        if len(candidate) <= 180:
+            summary = candidate
+
+    # Hard limit on displayed summary length.
+    if len(summary) > 180:
+        summary = summary[:177].rsplit(" ", 1)[0] + "..."
+
+    return summary or title
 
 
-def get_category(item):
-    labels = [
-        label["name"].lower()
-        for label in item.get("labels", [])
-    ]
+def get_category(title, labels):
+    text = (
+        title + " " +
+        " ".join(label["name"] for label in labels)
+    ).lower()
 
-    text = (item.get("title", "") + " " + " ".join(labels)).lower()
-
-    if any(x in text for x in ["documentation", "docs", "tutorial"]):
+    if any(word in text for word in [
+        "documentation", "docs", "tutorial"
+    ]):
         return "Documentation"
 
-    if any(x in text for x in ["bug", "fix"]):
+    if any(word in text for word in [
+        "bug", "fix", "broken", "error"
+    ]):
         return "Bug Fix"
 
-    if any(x in text for x in ["feature", "enhancement"]):
+    if any(word in text for word in [
+        "feature", "enhancement", "add support"
+    ]):
         return "Feature"
 
-    return "Open Source"
+    if any(word in text for word in [
+        "test", "testing"
+    ]):
+        return "Testing"
 
+    return "Code Contribution"
+
+
+# --------------------------------------------------
+# Search merged pull requests
+# --------------------------------------------------
 
 def search_merged_prs():
+
     candidates = []
 
-    # Search up to 1,000 matching PRs.
-    for page in range(1, 11):
-        query = f"is:pr is:merged author:{USERNAME}"
+    query = f"is:pr is:merged author:{USERNAME}"
+
+    for page in range(1, MAX_SEARCH_PAGES + 1):
 
         params = urlencode({
             "q": query,
@@ -99,9 +200,12 @@ def search_merged_prs():
             "order": "desc",
         })
 
-        data = github_get(
-            f"https://api.github.com/search/issues?{params}"
+        url = (
+            "https://api.github.com/search/issues?"
+            + params
         )
+
+        data = github_get(url)
 
         items = data.get("items", [])
 
@@ -109,6 +213,7 @@ def search_merged_prs():
             break
 
         for item in items:
+
             if "pull_request" not in item:
                 continue
 
@@ -121,117 +226,228 @@ def search_merged_prs():
             owner = parts[-2]
             repo = parts[-1]
 
-            # Exclude repositories owned by the user.
+            # Exclude repositories owned by you.
             if owner.lower() == USERNAME.lower():
                 continue
 
             candidates.append((item, owner, repo))
 
-    # Sort by the actual PR closing/merge date.
-    candidates.sort(
-        key=lambda x: x[0].get("closed_at") or "",
-        reverse=True,
-    )
+        if len(items) < 100:
+            break
 
     return candidates
 
 
+# --------------------------------------------------
+# Repository information
+# --------------------------------------------------
+
 def get_repo_details(owner, repo, cache):
+
     full_name = f"{owner}/{repo}"
 
     if full_name not in cache:
-        cache[full_name] = github_get(
-            f"https://api.github.com/repos/{full_name}"
+
+        url = (
+            f"https://api.github.com/repos/"
+            f"{full_name}"
         )
+
+        cache[full_name] = github_get(url)
 
     return cache[full_name]
 
 
+# --------------------------------------------------
+# Collect qualifying contributions
+# --------------------------------------------------
+
 def generate_contributions():
+
     candidates = search_merged_prs()
 
     repo_cache = {}
     contributions = []
 
+    print(f"Found {len(candidates)} merged PR candidates.")
+
     for item, owner, repo in candidates:
-        if len(contributions) >= MAX_CONTRIBUTIONS:
-            break
 
-        details = get_repo_details(owner, repo, repo_cache)
+        details = get_repo_details(
+            owner,
+            repo,
+            repo_cache
+        )
 
-        # Only public repositories owned by others.
+        # Public repositories only.
         if details.get("private", True):
             continue
 
-        full_name = details["full_name"]
-        stars = details.get("stargazers_count", 0)
-        forks = details.get("forks_count", 0)
-        language = details.get("language") or "Not specified"
+        # Exclude repositories owned by the user.
+        if owner.lower() == USERNAME.lower():
+            continue
 
-        merged_date = item.get("closed_at")
+        stars = details.get("stargazers_count", 0)
+
+        # Strictly more than 500 stars.
+        if stars <= MIN_STARS:
+            continue
+
+        # Fetch actual PR details and merge timestamp.
+        pr_url = item.get("pull_request", {}).get("url")
+
+        if not pr_url:
+            continue
+
+        pr = github_get(pr_url)
+
+        merged_at = pr.get("merged_at")
+
+        # Confirm that the PR was actually merged.
+        if not merged_at:
+            continue
+
+        title = pr.get("title") or item.get("title", "")
+
+        body = pr.get("body") or ""
+
+        summary = clean_summary(body, title)
+
+        language = (
+            details.get("language") or "Not specified"
+        )
+
+        forks = details.get("forks_count", 0)
+
+        category = get_category(
+            title,
+            pr.get("labels", [])
+        )
 
         contributions.append({
-            "title": item["title"],
-            "url": item["html_url"],
-            "number": item["number"],
-            "repo": full_name,
+            "title": title,
+            "url": pr.get("html_url", item["html_url"]),
+            "number": pr.get("number", item["number"]),
+            "repo": details["full_name"],
             "repo_url": details["html_url"],
-            "summary": clean_summary(item.get("body")),
-            "category": get_category(item),
+            "summary": summary,
+            "category": category,
             "stars": stars,
             "forks": forks,
             "language": language,
-            "merged_date": merged_date,
+            "merged_at": merged_at,
         })
 
-    return contributions
+    # Newest merged contributions first.
+    contributions.sort(
+        key=lambda x: x["merged_at"],
+        reverse=True
+    )
 
+    return contributions[:MAX_CONTRIBUTIONS]
+
+
+# --------------------------------------------------
+# Generate visually improved README section
+# --------------------------------------------------
 
 def generate_markdown(contributions):
-    if not contributions:
-        return "_No merged contributions to external public repositories found._"
 
-    lines = []
+    if not contributions:
+        return (
+            "<p align='center'>"
+            "<i>No qualifying merged contributions found yet.</i>"
+            "</p>"
+        )
+
+    rows = []
 
     for item in contributions:
-        lines.append(
-            f'- **[{item["title"]}]({item["url"]})**'
-            f' — {item["summary"]}'
-        )
 
-        metadata = [
-            f'[{item["repo"]}]({item["repo_url"]})',
-            f'⭐ {format_count(item["stars"])} stars',
-            f'🍴 {format_count(item["forks"])} forks',
-            item["language"],
-            item["category"],
-            f'PR #{item["number"]}',
-            f'Merged {format_date(item["merged_date"])}',
-        ]
+        title = html.escape(item["title"])
+        summary = html.escape(item["summary"])
+        repo = html.escape(item["repo"])
+        repo_url = html.escape(item["repo_url"], quote=True)
+        pr_url = html.escape(item["url"], quote=True)
+        language = html.escape(item["language"])
+        category = html.escape(item["category"])
 
-        lines.append(
-            "  <sub>" + " · ".join(metadata) + "</sub>"
-        )
+        stars = format_count(item["stars"])
+        forks = format_count(item["forks"])
 
-        lines.append("")
+        date = format_date(item["merged_at"])
 
-    return "\n".join(lines).strip()
+        rows.append(f"""
+<tr>
+<td>
 
+<strong>
+<a href="{pr_url}">{title}</a>
+</strong>
+
+<br/>
+
+<a href="{repo_url}"><strong>{repo}</strong></a>
+
+&nbsp; ⭐ {stars} stars
+&nbsp; · &nbsp; 🍴 {forks} forks
+&nbsp; · &nbsp; <code>{language}</code>
+
+<br/><br/>
+
+{summary}
+
+<br/><br/>
+
+<sub>
+{category}
+&nbsp; · &nbsp; PR #{item["number"]}
+&nbsp; · &nbsp; Merged {date}
+</sub>
+
+</td>
+</tr>
+""")
+
+    return (
+        '<table align="center" width="100%">\n'
+        + "\n".join(rows)
+        + "\n</table>"
+    )
+
+
+# --------------------------------------------------
+# Update README
+# --------------------------------------------------
 
 def update_readme():
+
+    if not README.exists():
+        raise FileNotFoundError("README.md not found.")
+
     content = README.read_text(encoding="utf-8")
 
     if content.count(START_MARKER) != 1:
-        raise ValueError("Missing or duplicate START marker.")
+        raise ValueError(
+            "Missing or duplicate START marker."
+        )
 
     if content.count(END_MARKER) != 1:
-        raise ValueError("Missing or duplicate END marker.")
+        raise ValueError(
+            "Missing or duplicate END marker."
+        )
 
-    start = content.index(START_MARKER) + len(START_MARKER)
+    start = (
+        content.index(START_MARKER)
+        + len(START_MARKER)
+    )
+
     end = content.index(END_MARKER)
 
     if start >= end:
-        raise ValueError("Contribution markers are incorrectly positioned.")
+        raise ValueError(
+            "Contribution markers are incorrectly positioned."
+        )
 
     contributions = generate_contributions()
 
@@ -245,12 +461,18 @@ def update_readme():
         + content[end:]
     )
 
-    README.write_text(updated, encoding="utf-8")
-
-    print(
-        f"Updated README with {len(contributions)} "
-        "external merged contributions."
+    README.write_text(
+        updated,
+        encoding="utf-8"
     )
+
+    print("=" * 50)
+    print("Open Source Contributions Updated")
+    print("=" * 50)
+    print(f"Qualifying contributions: {len(contributions)}")
+    print(f"Minimum repository stars: {MIN_STARS + 1}")
+    print(f"Maximum displayed: {MAX_CONTRIBUTIONS}")
+    print("=" * 50)
 
 
 if __name__ == "__main__":
