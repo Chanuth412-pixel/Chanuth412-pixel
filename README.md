@@ -116,6 +116,39 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <td align="left">
 
 <strong>
+<a href="https://github.com/pypa/build/pull/1282">Update macOS runners in CI documentation</a>
+</strong>
+
+<br/>
+
+<a href="https://github.com/pypa/build"><strong>pypa/build</strong></a>
+
+<br/>
+
+⭐ 864 stars
+&nbsp; · &nbsp;
+🍴 203 forks
+&nbsp; · &nbsp;
+<code>Python</code>
+
+<br/><br/>
+
+<sub>
+Documentation
+&nbsp; · &nbsp;
+PR #1282
+&nbsp; · &nbsp;
+Merged 13 Nov 2026
+</sub>
+
+</td>
+</tr>
+
+
+<tr>
+<td align="left">
+
+<strong>
 <a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
 </strong>
 
