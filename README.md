@@ -112,6 +112,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
+- **[docs(telemetry): fix telemetry compose README instructions](https://github.com/terrakube-io/terrakube/pull/3921)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
+  <sub>⭐ 1k stars · 🍴 149 forks · `Java` · Documentation · PR #3921 · Merged 15 Nov 2026</sub>
+
 - **[Update macOS runners in CI documentation](https://github.com/pypa/build/pull/1282)** — [pypa/build](https://github.com/pypa/build)  
   <sub>⭐ 865 stars · 🍴 220 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
 
