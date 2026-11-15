@@ -113,10 +113,10 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
 - **[Update macOS runners in CI documentation](https://github.com/pypa/build/pull/1282)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 864 stars · 🍴 203 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 220 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
 
 - **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 864 stars · 🍴 203 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 220 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
