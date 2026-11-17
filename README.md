@@ -116,13 +116,13 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
   <sub>⭐ 10.2k stars · 🍴 8.8k forks · `HTML` · Documentation · PR #50530 · Merged 16 Nov 2026</sub>
 
 - **[docs(telemetry): fix telemetry compose README instructions](https://github.com/terrakube-io/terrakube/pull/3921)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
-  <sub>⭐ 1k stars · 🍴 151 forks · `Java` · Documentation · PR #3921 · Merged 15 Nov 2026</sub>
+  <sub>⭐ 1k stars · 🍴 152 forks · `Java` · Documentation · PR #3921 · Merged 15 Nov 2026</sub>
 
 - **[Update macOS runners in CI documentation](https://github.com/pypa/build/pull/1282)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 865 stars · 🍴 269 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 282 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
 
 - **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 865 stars · 🍴 269 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 282 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
