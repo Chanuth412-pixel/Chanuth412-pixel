@@ -113,22 +113,22 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
 - **[Fix troubleshooting hint when build isolation is disabled](https://github.com/pypa/build/pull/1283)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 865 stars · 🍴 289 forks · `Python` · Bug Fix · PR #1283 · Merged 18 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 291 forks · `Python` · Bug Fix · PR #1283 · Merged 18 Nov 2026</sub>
 
 - **[fix(ui): correctly remove trailing .git from repository URLs](https://github.com/terrakube-io/terrakube/pull/3922)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
-  <sub>⭐ 1k stars · 🍴 152 forks · `Java` · Bug Fix · PR #3922 · Merged 17 Nov 2026</sub>
+  <sub>⭐ 1k stars · 🍴 153 forks · `Java` · Bug Fix · PR #3922 · Merged 17 Nov 2026</sub>
 
 - **[docs: fix broken FAQ links](https://github.com/home-assistant/home-assistant.io/pull/50530)** — [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io)  
   <sub>⭐ 10.2k stars · 🍴 8.8k forks · `HTML` · Documentation · PR #50530 · Merged 16 Nov 2026</sub>
 
 - **[docs(telemetry): fix telemetry compose README instructions](https://github.com/terrakube-io/terrakube/pull/3921)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
-  <sub>⭐ 1k stars · 🍴 152 forks · `Java` · Documentation · PR #3921 · Merged 15 Nov 2026</sub>
+  <sub>⭐ 1k stars · 🍴 153 forks · `Java` · Documentation · PR #3921 · Merged 15 Nov 2026</sub>
 
 - **[Update macOS runners in CI documentation](https://github.com/pypa/build/pull/1282)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 865 stars · 🍴 289 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 291 forks · `Python` · Documentation · PR #1282 · Merged 13 Nov 2026</sub>
 
 - **[Fixed the missing src directory in tutorial](https://github.com/pypa/build/pull/1281)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 865 stars · 🍴 289 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
+  <sub>⭐ 865 stars · 🍴 291 forks · `Python` · Documentation · PR #1281 · Merged 13 Nov 2026</sub>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
