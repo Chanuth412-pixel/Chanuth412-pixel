@@ -112,6 +112,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
+- **[fix(install): report latest version lookup failures](https://github.com/kubescape/kubescape/pull/5233)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
+  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5233 · Merged 19 Nov 2026</sub>
+
 - **[fix(completion): correct shell completion instructions](https://github.com/kubescape/kubescape/pull/5177)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
   <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5177 · Merged 18 Nov 2026</sub>
 
