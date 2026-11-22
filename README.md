@@ -112,6 +112,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
+- **[fix(install): reset terminal colors when install.sh exits](https://github.com/kubescape/kubescape/pull/5446)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
+  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5446 · Merged 22 Nov 2026</sub>
+
 - **[fix(install): preserve existing kubescape.exe on failed Windows upgrade](https://github.com/kubescape/kubescape/pull/5329)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
   <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5329 · Merged 21 Nov 2026</sub>
 
@@ -132,9 +135,6 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 - **[docs: fix broken FAQ links](https://github.com/home-assistant/home-assistant.io/pull/50530)** — [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io)  
   <sub>⭐ 10.2k stars · 🍴 8.8k forks · `HTML` · Documentation · PR #50530 · Merged 16 Nov 2026</sub>
-
-- **[docs(telemetry): fix telemetry compose README instructions](https://github.com/terrakube-io/terrakube/pull/3921)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
-  <sub>⭐ 1k stars · 🍴 153 forks · `Java` · Documentation · PR #3921 · Merged 15 Nov 2026</sub>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
