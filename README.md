@@ -128,7 +128,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
   <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5177 · Merged 18 Nov 2026</sub>
 
 - **[Fix troubleshooting hint when build isolation is disabled](https://github.com/pypa/build/pull/1283)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 864 stars · 🍴 302 forks · `Python` · Bug Fix · PR #1283 · Merged 18 Nov 2026</sub>
+  <sub>⭐ 864 stars · 🍴 301 forks · `Python` · Bug Fix · PR #1283 · Merged 18 Nov 2026</sub>
 
 - **[fix(ui): correctly remove trailing .git from repository URLs](https://github.com/terrakube-io/terrakube/pull/3922)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
   <sub>⭐ 1k stars · 🍴 153 forks · `Java` · Bug Fix · PR #3922 · Merged 17 Nov 2026</sub>
