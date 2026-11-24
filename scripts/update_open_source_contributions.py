@@ -1,4 +1,3 @@
-
 import os
 import sys
 import json
@@ -8,6 +7,7 @@ import urllib.error
 
 from pathlib import Path
 from datetime import datetime
+from collections import defaultdict
 
 
 # ============================================================
@@ -21,7 +21,7 @@ GITHUB_USERNAME = os.getenv(
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 MIN_STARS = 500
-MAX_CONTRIBUTIONS = 8
+VISIBLE_PRS_PER_REPO = 3
 RESULTS_PER_PAGE = 100
 MAX_SEARCH_RESULTS = 1000
 
@@ -214,6 +214,7 @@ def fetch_contributions(token, username):
     cursor = None
     candidates = []
     total_results = None
+    scanned_results = 0
 
     print("Searching GitHub for merged pull requests...")
 
@@ -245,6 +246,7 @@ def fetch_contributions(token, username):
                 )
 
         nodes = search["nodes"]
+        scanned_results += len(nodes)
 
         for pr in nodes:
 
@@ -315,7 +317,7 @@ def fetch_contributions(token, username):
         if not page_info["hasNextPage"]:
             break
 
-        if len(candidates) >= MAX_SEARCH_RESULTS:
+        if scanned_results >= MAX_SEARCH_RESULTS:
             break
 
         cursor = page_info["endCursor"]
@@ -333,9 +335,6 @@ def fetch_contributions(token, username):
         unique[item["url"]] = item
 
     contributions = list(unique.values())
-
-    # Display only the latest qualifying contributions.
-    contributions = contributions[:MAX_CONTRIBUTIONS]
 
     print(
         f"Found {len(contributions)} qualifying "
@@ -378,52 +377,74 @@ def format_date(value):
 
 
 def generate_markdown(contributions):
-
+    """Generate a repository-grouped README section with expandable PR lists."""
     if not contributions:
-        return (
-            "<p align='center'>"
-            "<i>No qualifying merged contributions found yet.</i>"
-            "</p>"
-        )
+        return "*No qualifying merged contributions found yet.*"
 
-    rows = []
-
+    repos = defaultdict(list)
     for item in contributions:
+        repos[item["repo"]].append(item)
 
+    languages = {
+        item["language"] for item in contributions
+        if item.get("language") and item["language"] != "Other"
+    }
+
+    # Most contributions first; break ties by repository stars and name.
+    groups = sorted(
+        repos.values(),
+        key=lambda items: (-len(items), -items[0]["stars"], items[0]["repo"].lower())
+    )
+
+    rows = [
+        "<table>",
+        '  <tr>',
+        '    <td align="center">Merged PRs<br><strong>{}</strong></td>'.format(len(contributions)),
+        '    <td align="center">Repositories<br><strong>{}</strong></td>'.format(len(repos)),
+        '    <td align="center">Primary languages<br><strong>{}</strong></td>'.format(len(languages)),
+        '  </tr>',
+        '</table>',
+        '',
+    ]
+
+    def pr_line(item):
         title = html.escape(str(item["title"]))
-        repo = html.escape(str(item["repo"]))
+        url = html.escape(str(item["url"]), quote=True)
+        return f'- <a href="{url}">{title}</a>'
 
-        repo_url = html.escape(
-            str(item["repo_url"]), quote=True
-        )
+    for items in groups:
+        items.sort(key=lambda item: item["merged_at"], reverse=True)
+        repo = items[0]
+        name = html.escape(repo["repo"])
+        url = html.escape(repo["repo_url"], quote=True)
+        language = html.escape(repo["language"])
+        stars = format_count(repo["stars"])
+        count = len(items)
+        pr_label = "merged PR" if count == 1 else "merged PRs"
 
-        pr_url = html.escape(
-            str(item["url"]), quote=True
-        )
+        rows.extend([
+            f'#### <a href="{url}">{name}</a>',
+            '',
+            f'⭐ {stars} · {language} · **{count} {pr_label}**',
+            '',
+        ])
 
-        language = html.escape(str(item["language"]))
-        category = html.escape(str(item["category"]))
+        rows.extend(pr_line(item) for item in items[:VISIBLE_PRS_PER_REPO])
+        rows.append('')
 
-        number = html.escape(str(item["number"]))
+        remaining = items[VISIBLE_PRS_PER_REPO:]
+        if remaining:
+            count = len(remaining)
+            label = "contribution" if count == 1 else "contributions"
+            rows.extend([
+                '<details>',
+                f'<summary>View {count} more {label}</summary>',
+                '',
+            ])
+            rows.extend(pr_line(item) for item in remaining)
+            rows.extend(['', '</details>', ''])
 
-        stars = format_count(item["stars"])
-        forks = format_count(item["forks"])
-
-        date = format_date(item["merged_at"])
-
-        rows.append(
-            f'- **[{title}]({pr_url})** — '
-            f'[{repo}]({repo_url})  \n'
-            f'  <sub>⭐ {stars} stars '
-            f'· 🍴 {forks} forks '
-            f'· `{language}` '
-            f'· {category} '
-            f'· PR #{number} '
-            f'· Merged {date}</sub>'
-        )
-
-    return "\n\n".join(rows)
-
+    return "\n".join(rows).rstrip()
 
 
 # ============================================================
