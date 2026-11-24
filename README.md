@@ -112,29 +112,45 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 
-- **[fix(install): reset terminal colors when install.sh exits](https://github.com/kubescape/kubescape/pull/5446)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
-  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5446 · Merged 22 Nov 2026</sub>
+<table>
+  <tr>
+    <td align="center">Merged PRs<br><strong>12</strong></td>
+    <td align="center">Repositories<br><strong>4</strong></td>
+    <td align="center">Primary languages<br><strong>4</strong></td>
+  </tr>
+</table>
 
-- **[fix(install): preserve existing kubescape.exe on failed Windows upgrade](https://github.com/kubescape/kubescape/pull/5329)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
-  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5329 · Merged 21 Nov 2026</sub>
+#### <a href="https://github.com/kubescape/kubescape">kubescape/kubescape</a>
 
-- **[feat(completion): add list and download value suggestions](https://github.com/kubescape/kubescape/pull/5266)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
-  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Open Source · PR #5266 · Merged 20 Nov 2026</sub>
+⭐ 12k · Go · **6 merged PRs**
 
-- **[fix(install): report latest version lookup failures](https://github.com/kubescape/kubescape/pull/5233)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
-  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5233 · Merged 19 Nov 2026</sub>
+- <a href="https://github.com/kubescape/kubescape/pull/5578">feat(completion): add scan flag value completions</a>
+- <a href="https://github.com/kubescape/kubescape/pull/5446">fix(install): reset terminal colors when install.sh exits</a>
+- <a href="https://github.com/kubescape/kubescape/pull/5329">fix(install): preserve existing kubescape.exe on failed Windows upgrade</a>
+- <a href="https://github.com/kubescape/kubescape/pull/5266">feat(completion): add list and download value suggestions</a>
+- <a href="https://github.com/kubescape/kubescape/pull/5233">fix(install): report latest version lookup failures</a>
+- <a href="https://github.com/kubescape/kubescape/pull/5177">fix(completion): correct shell completion instructions</a>
 
-- **[fix(completion): correct shell completion instructions](https://github.com/kubescape/kubescape/pull/5177)** — [kubescape/kubescape](https://github.com/kubescape/kubescape)  
-  <sub>⭐ 12k stars · 🍴 1.1k forks · `Go` · Bug Fix · PR #5177 · Merged 18 Nov 2026</sub>
+#### <a href="https://github.com/pypa/build">pypa/build</a>
 
-- **[Fix troubleshooting hint when build isolation is disabled](https://github.com/pypa/build/pull/1283)** — [pypa/build](https://github.com/pypa/build)  
-  <sub>⭐ 864 stars · 🍴 301 forks · `Python` · Bug Fix · PR #1283 · Merged 18 Nov 2026</sub>
+⭐ 864 · Python · **3 merged PRs**
 
-- **[fix(ui): correctly remove trailing .git from repository URLs](https://github.com/terrakube-io/terrakube/pull/3922)** — [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube)  
-  <sub>⭐ 1k stars · 🍴 154 forks · `Java` · Bug Fix · PR #3922 · Merged 17 Nov 2026</sub>
+- <a href="https://github.com/pypa/build/pull/1283">Fix troubleshooting hint when build isolation is disabled</a>
+- <a href="https://github.com/pypa/build/pull/1282">Update macOS runners in CI documentation</a>
+- <a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
 
-- **[docs: fix broken FAQ links](https://github.com/home-assistant/home-assistant.io/pull/50530)** — [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io)  
-  <sub>⭐ 10.2k stars · 🍴 8.8k forks · `HTML` · Documentation · PR #50530 · Merged 16 Nov 2026</sub>
+#### <a href="https://github.com/terrakube-io/terrakube">terrakube-io/terrakube</a>
+
+⭐ 1k · Java · **2 merged PRs**
+
+- <a href="https://github.com/terrakube-io/terrakube/pull/3922">fix(ui): correctly remove trailing .git from repository URLs</a>
+- <a href="https://github.com/terrakube-io/terrakube/pull/3921">docs(telemetry): fix telemetry compose README instructions</a>
+
+#### <a href="https://github.com/home-assistant/home-assistant.io">home-assistant/home-assistant.io</a>
+
+⭐ 10.2k · HTML · **1 merged PR**
+
+- <a href="https://github.com/home-assistant/home-assistant.io/pull/50530">docs: fix broken FAQ links</a>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
