@@ -114,8 +114,8 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <table>
   <tr>
-    <td align="center">Merged PRs<br><strong>15</strong></td>
-    <td align="center">Repositories<br><strong>4</strong></td>
+    <td align="center">Merged PRs<br><strong>16</strong></td>
+    <td align="center">Repositories<br><strong>5</strong></td>
     <td align="center">Primary languages<br><strong>4</strong></td>
   </tr>
 </table>
@@ -148,6 +148,12 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 - <a href="https://github.com/terrakube-io/terrakube/pull/3922">fix(ui): correctly remove trailing .git from repository URLs</a>
 - <a href="https://github.com/terrakube-io/terrakube/pull/3921">docs(telemetry): fix telemetry compose README instructions</a>
+
+#### <a href="https://github.com/neuml/txtai">neuml/txtai</a>
+
+⭐ 13.7k · Python · **1 merged PR**
+
+- <a href="https://github.com/neuml/txtai/pull/1659">Fix inconsistent label filtering in the Labels pipeline</a>
 
 #### <a href="https://github.com/home-assistant/home-assistant.io">home-assistant/home-assistant.io</a>
 
