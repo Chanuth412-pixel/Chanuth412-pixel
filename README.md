@@ -114,7 +114,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <table>
   <tr>
-    <td align="center">Merged PRs<br><strong>13</strong></td>
+    <td align="center">Merged PRs<br><strong>14</strong></td>
     <td align="center">Repositories<br><strong>4</strong></td>
     <td align="center">Primary languages<br><strong>4</strong></td>
   </tr>
@@ -122,8 +122,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 #### <a href="https://github.com/kubescape/kubescape">kubescape/kubescape</a>
 
-⭐ 12k · Go · **7 merged PRs**
+⭐ 12k · Go · **8 merged PRs**
 
+- <a href="https://github.com/kubescape/kubescape/pull/5718">fix(download): return errors from bulk control downloads</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5602">fix(completion): preserve typed case and trim selected formats</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5578">feat(completion): add scan flag value completions</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5446">fix(install): reset terminal colors when install.sh exits</a>
