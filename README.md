@@ -99,7 +99,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <p align="center">
   <sub>ESP32 · Bluetooth Low Energy (BLE)</sub>
 </p>
-
+<!--
 <br/>
 
 ---
@@ -168,7 +168,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 <br/>
 
 ---
-
+-->
 ###  GitHub Activity
 
 <div align="center">
