@@ -114,7 +114,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <table>
   <tr>
-    <td align="center">Merged PRs<br><strong>16</strong></td>
+    <td align="center">Merged PRs<br><strong>17</strong></td>
     <td align="center">Repositories<br><strong>5</strong></td>
     <td align="center">Primary languages<br><strong>4</strong></td>
   </tr>
@@ -122,8 +122,9 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 #### <a href="https://github.com/kubescape/kubescape">kubescape/kubescape</a>
 
-⭐ 12k · Go · **9 merged PRs**
+⭐ 12k · Go · **10 merged PRs**
 
+- <a href="https://github.com/kubescape/kubescape/pull/5741">fix(policy): return an error when no test cases are found</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5644">fix(rules): detect node-proxy grants restricted to named nodes</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5718">fix(download): return errors from bulk control downloads</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5602">fix(completion): preserve typed case and trim selected formats</a>
