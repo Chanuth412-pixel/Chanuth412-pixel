@@ -114,7 +114,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <table>
   <tr>
-    <td align="center">Merged PRs<br><strong>17</strong></td>
+    <td align="center">Merged PRs<br><strong>18</strong></td>
     <td align="center">Repositories<br><strong>5</strong></td>
     <td align="center">Primary languages<br><strong>4</strong></td>
   </tr>
@@ -143,18 +143,19 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 - <a href="https://github.com/pypa/build/pull/1282">Update macOS runners in CI documentation</a>
 - <a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
 
+#### <a href="https://github.com/neuml/txtai">neuml/txtai</a>
+
+⭐ 13.7k · Python · **2 merged PRs**
+
+- <a href="https://github.com/neuml/txtai/pull/1668">Skip empty filtered batches in ServiceTask</a>
+- <a href="https://github.com/neuml/txtai/pull/1659">Fix inconsistent label filtering in the Labels pipeline</a>
+
 #### <a href="https://github.com/terrakube-io/terrakube">terrakube-io/terrakube</a>
 
 ⭐ 1k · Java · **2 merged PRs**
 
 - <a href="https://github.com/terrakube-io/terrakube/pull/3922">fix(ui): correctly remove trailing .git from repository URLs</a>
 - <a href="https://github.com/terrakube-io/terrakube/pull/3921">docs(telemetry): fix telemetry compose README instructions</a>
-
-#### <a href="https://github.com/neuml/txtai">neuml/txtai</a>
-
-⭐ 13.7k · Python · **1 merged PR**
-
-- <a href="https://github.com/neuml/txtai/pull/1659">Fix inconsistent label filtering in the Labels pipeline</a>
 
 #### <a href="https://github.com/home-assistant/home-assistant.io">home-assistant/home-assistant.io</a>
 
