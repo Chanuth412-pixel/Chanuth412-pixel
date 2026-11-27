@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import html
+import re
 import urllib.request
 import urllib.error
 
@@ -139,55 +140,56 @@ def github_graphql(token, query, variables):
 # ============================================================
 
 def classify_category(title, labels):
-    """Assign a short contribution category without using PR descriptions."""
+    """Classify a PR using its title and GitHub labels."""
 
-    title_lower = title.lower()
+    title = title.strip().lower()
 
-    label_names = [
-        label.lower() for label in labels
+    # Prefer explicit conventional commit prefixes.
+    prefixes = {
+        "fix": "Bug Fix",
+        "feat": "Feature",
+        "docs": "Documentation",
+        "test": "Testing",
+        "refactor": "Code Improvement",
+        "perf": "Code Improvement",
+        "chore": "Code Improvement",
+        "ci": "Code Improvement",
+        "build": "Code Improvement",
+    }
+
+    match = re.match(r"^([a-z]+)(?:\([^)]*\))?!?\s*:", title)
+    if match and match.group(1) in prefixes:
+        return prefixes[match.group(1)]
+
+    # Match words, not substrings (e.g. "prefix" is not "fix").
+    label_text = " ".join(label.lower() for label in labels)
+    label_text = re.sub(r"[_-]+", " ", label_text)
+
+    rules = [
+        ("Documentation", r"\b(?:docs?|documentation|readme|tutorial|typo)\b"),
+        ("Bug Fix", r"\b(?:bug(?:fix)?|fix)\b"),
+        ("Feature", r"\b(?:feat(?:ure)?|enhancement)\b"),
+        ("Testing", r"\b(?:tests?|testing|coverage)\b"),
+        ("Code Improvement", r"\b(?:refactor|cleanup|maintenance|performance)\b"),
     ]
 
-    text = " ".join(label_names + [title_lower])
+    # Explicit category labels are useful for non-standard PR titles.
+    for category, pattern in rules:
+        if re.search(pattern, label_text):
+            return category
 
-    if any(word in text for word in [
-        "documentation",
-        "docs",
-        "tutorial",
-        "readme",
-        "typo"
-    ]):
-        return "Documentation"
+    # Fall back to ordinary PR titles.
+    for category, pattern in [
+        ("Documentation", r"\b(?:docs?|documentation|readme|tutorial|typo)\b"),
+        ("Bug Fix", r"^\b(?:fix(?:es|ed)?|correct(?:s|ed)?|resolve(?:s|d)?|repair)\b"),
+        ("Testing", r"\b(?:tests?|testing|coverage)\b"),
+        ("Feature", r"\b(?:new feature|enhancement|implement)\b|^(?:add|introduce)\b"),
+        ("Code Improvement", r"\b(?:refactor|cleanup|maintenance|performance)\b"),
+    ]:
+        if re.search(pattern, title):
+            return category
 
-    if any(word in text for word in [
-        "bug",
-        "bugfix",
-        "bug fix",
-        "fix"
-    ]):
-        return "Bug Fix"
-
-    if any(word in text for word in [
-        "test",
-        "testing",
-        "coverage"
-    ]):
-        return "Testing"
-
-    if any(word in text for word in [
-        "feature",
-        "enhancement",
-        "implement"
-    ]):
-        return "Feature"
-
-    if any(word in text for word in [
-        "refactor",
-        "cleanup",
-        "maintenance"
-    ]):
-        return "Code Improvement"
-
-    return "Open Source"
+    return "Other"
 
 
 # ============================================================
@@ -410,7 +412,8 @@ def generate_markdown(contributions):
     def pr_line(item):
         title = html.escape(str(item["title"]))
         url = html.escape(str(item["url"]), quote=True)
-        return f'- <a href="{url}">{title}</a>'
+        category = html.escape(item["category"])
+        return f'- <code>{category}</code> <a href="{url}">{title}</a>'
 
     for items in groups:
         items.sort(key=lambda item: item["merged_at"], reverse=True)
