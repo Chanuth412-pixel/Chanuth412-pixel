@@ -179,6 +179,7 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
+[![Contributor](https://img.shields.io/badge/1st%20PR%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF)](https://github.com/search?q=is%3Apr+author%3AChanuth412-pixel+org%3Akestra-io&type=pullrequests)
 
 <br/>
 
