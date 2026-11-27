@@ -115,16 +115,17 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 <table>
   <tr>
-    <td align="center">Merged PRs<br><strong>18</strong></td>
-    <td align="center">Repositories<br><strong>5</strong></td>
+    <td align="center">Merged PRs<br><strong>21</strong></td>
+    <td align="center">Repositories<br><strong>7</strong></td>
     <td align="center">Primary languages<br><strong>4</strong></td>
   </tr>
 </table>
 
 #### <a href="https://github.com/kubescape/kubescape">kubescape/kubescape</a>
 
-⭐ 12k · Go · **10 merged PRs**
+⭐ 12k · Go · **11 merged PRs**
 
+- <a href="https://github.com/kubescape/kubescape/pull/5815">fix(config): preserve saved settings during configuration updates</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5741">fix(policy): return an error when no test cases are found</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5644">fix(rules): detect node-proxy grants restricted to named nodes</a>
 - <a href="https://github.com/kubescape/kubescape/pull/5718">fix(download): return errors from bulk control downloads</a>
@@ -158,12 +159,23 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 - <a href="https://github.com/terrakube-io/terrakube/pull/3922">fix(ui): correctly remove trailing .git from repository URLs</a>
 - <a href="https://github.com/terrakube-io/terrakube/pull/3921">docs(telemetry): fix telemetry compose README instructions</a>
 
+#### <a href="https://github.com/kestra-io/kestra">kestra-io/kestra</a>
+
+⭐ 30.4k · Java · **1 merged PR**
+
+- <a href="https://github.com/kestra-io/kestra/pull/23108">fix(ui): display missing branches in flowable blocks</a>
+
+#### <a href="https://github.com/grafana/loki">grafana/loki</a>
+
+⭐ 29.3k · Go · **1 merged PR**
+
+- <a href="https://github.com/grafana/loki/pull/26723">fix(logcli): Return error in case `fmt` command fails to write output</a>
+
 #### <a href="https://github.com/home-assistant/home-assistant.io">home-assistant/home-assistant.io</a>
 
-⭐ 10.2k · HTML · **1 merged PR**
+⭐ 10.3k · HTML · **1 merged PR**
 
 - <a href="https://github.com/home-assistant/home-assistant.io/pull/50530">docs: fix broken FAQ links</a>
-
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
