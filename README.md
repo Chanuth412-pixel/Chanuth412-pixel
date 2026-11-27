@@ -125,57 +125,57 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 
 ⭐ 12k · Go · **11 merged PRs**
 
-- <a href="https://github.com/kubescape/kubescape/pull/5815">fix(config): preserve saved settings during configuration updates</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5741">fix(policy): return an error when no test cases are found</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5644">fix(rules): detect node-proxy grants restricted to named nodes</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5718">fix(download): return errors from bulk control downloads</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5602">fix(completion): preserve typed case and trim selected formats</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5578">feat(completion): add scan flag value completions</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5446">fix(install): reset terminal colors when install.sh exits</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5329">fix(install): preserve existing kubescape.exe on failed Windows upgrade</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5266">feat(completion): add list and download value suggestions</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5233">fix(install): report latest version lookup failures</a>
-- <a href="https://github.com/kubescape/kubescape/pull/5177">fix(completion): correct shell completion instructions</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5815">fix(config): preserve saved settings during configuration updates</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5741">fix(policy): return an error when no test cases are found</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5644">fix(rules): detect node-proxy grants restricted to named nodes</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5718">fix(download): return errors from bulk control downloads</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5602">fix(completion): preserve typed case and trim selected formats</a>
+- <code>Feature</code> <a href="https://github.com/kubescape/kubescape/pull/5578">feat(completion): add scan flag value completions</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5446">fix(install): reset terminal colors when install.sh exits</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5329">fix(install): preserve existing kubescape.exe on failed Windows upgrade</a>
+- <code>Feature</code> <a href="https://github.com/kubescape/kubescape/pull/5266">feat(completion): add list and download value suggestions</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5233">fix(install): report latest version lookup failures</a>
+- <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5177">fix(completion): correct shell completion instructions</a>
 
 #### <a href="https://github.com/pypa/build">pypa/build</a>
 
 ⭐ 864 · Python · **3 merged PRs**
 
-- <a href="https://github.com/pypa/build/pull/1283">Fix troubleshooting hint when build isolation is disabled</a>
-- <a href="https://github.com/pypa/build/pull/1282">Update macOS runners in CI documentation</a>
-- <a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
+- <code>Bug Fix</code> <a href="https://github.com/pypa/build/pull/1283">Fix troubleshooting hint when build isolation is disabled</a>
+- <code>Documentation</code> <a href="https://github.com/pypa/build/pull/1282">Update macOS runners in CI documentation</a>
+- <code>Documentation</code> <a href="https://github.com/pypa/build/pull/1281">Fixed the missing src directory in tutorial</a>
 
 #### <a href="https://github.com/neuml/txtai">neuml/txtai</a>
 
 ⭐ 13.7k · Python · **2 merged PRs**
 
-- <a href="https://github.com/neuml/txtai/pull/1668">Skip empty filtered batches in ServiceTask</a>
-- <a href="https://github.com/neuml/txtai/pull/1659">Fix inconsistent label filtering in the Labels pipeline</a>
+- <code>Bug Fix</code> <a href="https://github.com/neuml/txtai/pull/1668">Skip empty filtered batches in ServiceTask</a>
+- <code>Bug Fix</code> <a href="https://github.com/neuml/txtai/pull/1659">Fix inconsistent label filtering in the Labels pipeline</a>
 
 #### <a href="https://github.com/terrakube-io/terrakube">terrakube-io/terrakube</a>
 
 ⭐ 1k · Java · **2 merged PRs**
 
-- <a href="https://github.com/terrakube-io/terrakube/pull/3922">fix(ui): correctly remove trailing .git from repository URLs</a>
-- <a href="https://github.com/terrakube-io/terrakube/pull/3921">docs(telemetry): fix telemetry compose README instructions</a>
+- <code>Bug Fix</code> <a href="https://github.com/terrakube-io/terrakube/pull/3922">fix(ui): correctly remove trailing .git from repository URLs</a>
+- <code>Documentation</code> <a href="https://github.com/terrakube-io/terrakube/pull/3921">docs(telemetry): fix telemetry compose README instructions</a>
 
 #### <a href="https://github.com/kestra-io/kestra">kestra-io/kestra</a>
 
 ⭐ 30.4k · Java · **1 merged PR**
 
-- <a href="https://github.com/kestra-io/kestra/pull/23108">fix(ui): display missing branches in flowable blocks</a>
+- <code>Bug Fix</code> <a href="https://github.com/kestra-io/kestra/pull/23108">fix(ui): display missing branches in flowable blocks</a>
 
 #### <a href="https://github.com/grafana/loki">grafana/loki</a>
 
 ⭐ 29.3k · Go · **1 merged PR**
 
-- <a href="https://github.com/grafana/loki/pull/26723">fix(logcli): Return error in case `fmt` command fails to write output</a>
+- <code>Bug Fix</code> <a href="https://github.com/grafana/loki/pull/26723">fix(logcli): Return error in case `fmt` command fails to write output</a>
 
 #### <a href="https://github.com/home-assistant/home-assistant.io">home-assistant/home-assistant.io</a>
 
 ⭐ 10.3k · HTML · **1 merged PR**
 
-- <a href="https://github.com/home-assistant/home-assistant.io/pull/50530">docs: fix broken FAQ links</a>
+- <code>Documentation</code> <a href="https://github.com/home-assistant/home-assistant.io/pull/50530">docs: fix broken FAQ links</a>
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
