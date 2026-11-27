@@ -130,12 +130,18 @@ I'm interested in **software engineering, AI/ML, cloud infrastructure, and autom
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5644">fix(rules): detect node-proxy grants restricted to named nodes</a>
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5718">fix(download): return errors from bulk control downloads</a>
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5602">fix(completion): preserve typed case and trim selected formats</a>
+
+<details>
+<summary>View 6 more contributions</summary>
+
 - <code>Feature</code> <a href="https://github.com/kubescape/kubescape/pull/5578">feat(completion): add scan flag value completions</a>
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5446">fix(install): reset terminal colors when install.sh exits</a>
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5329">fix(install): preserve existing kubescape.exe on failed Windows upgrade</a>
 - <code>Feature</code> <a href="https://github.com/kubescape/kubescape/pull/5266">feat(completion): add list and download value suggestions</a>
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5233">fix(install): report latest version lookup failures</a>
 - <code>Bug Fix</code> <a href="https://github.com/kubescape/kubescape/pull/5177">fix(completion): correct shell completion instructions</a>
+
+</details>
 
 #### <a href="https://github.com/pypa/build">pypa/build</a>
 
